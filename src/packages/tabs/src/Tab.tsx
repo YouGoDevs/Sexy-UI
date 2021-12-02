@@ -27,9 +27,10 @@ export const Tab: any = ({ children, content }: any) => {
   return (
     <TabMain aria-label="inactive" onClick={handleContentSetting}>
       {children[0]}
-      {children && children.map((element: any) => {
-        <h1> {console.log(element.props)} </h1>
-      })}
+      {children &&
+        children.map((element: any) => {
+          <h1> {console.log(element.props)} </h1>;
+        })}
     </TabMain>
   );
 };

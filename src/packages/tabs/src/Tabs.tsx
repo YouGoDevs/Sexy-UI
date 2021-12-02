@@ -1,8 +1,5 @@
 import styled from "styled-components";
 
-import { MyStore } from "../context/myStore";
-import { useContext } from "react";
-
 export const TabsComponent = styled.div`
   display: flex;
   flex-direction: column;
@@ -27,12 +24,5 @@ interface Props {
 }
 
 export const Tabs: any = ({ children, content }: Props) => {
-  const localStore = useContext(MyStore);
-
-  return (
-    <TabsComponent>
-      {children}
-    
-    </TabsComponent>
-  );
+  return <TabsComponent>{children}</TabsComponent>;
 };
