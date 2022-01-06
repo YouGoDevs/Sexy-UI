@@ -1,9 +1,8 @@
 import { useState } from "react";
 import React from "react";
-import styles from '../styles/styles.module.css';
+import styles from "../styles/styles.module.css";
 
 import { PreviousButton, NextButton } from "./slidebutton";
-
 
 /* 
   use case file defines an ideal use case for the component
@@ -15,13 +14,16 @@ import { PreviousButton, NextButton } from "./slidebutton";
 
 */
 
-
 interface CarouselProps {
-  children : []
+  children: [];
 }
 
 export const CarouselContainer = ({ children }: CarouselProps) => {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState<number>(0);
+
+  /* after defining local state to track active index from "children array", we define methods to handle incrementing 
+     and decrementing the index to navigate between slides
+  */
 
   const handleNextSlide = () => {
     if (index >= children.length - 1) setIndex(0);
@@ -37,6 +39,7 @@ export const CarouselContainer = ({ children }: CarouselProps) => {
     }
   };
 
+  // handle null case if there are no child elements in "children"
   if (children.length === 0) return null;
 
   return (
