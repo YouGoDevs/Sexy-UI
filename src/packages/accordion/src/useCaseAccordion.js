@@ -2,7 +2,7 @@ import React from "react";
 import { Accordion } from "./accordion";
 import { AccordionContainer } from "./accordioncontainer";
 
-export const UseCase = () => {
+export const UseCaseAccordion = () => {
   return (
     <div>
       <AccordionContainer>

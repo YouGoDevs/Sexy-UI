@@ -1,4 +1,5 @@
 import React from "react";
+import { UseCaseAccordion } from "./packages/accordion/src/useCaseAccordion";
 import { UseCaseTabs } from "./packages/tabs/src/UseCaseTabs";
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
         justifyContent: "center",
       }}
     >
-      <UseCaseTabs />
+      <UseCaseAccordion/>
     </div>
   );
 };
