@@ -23,14 +23,11 @@ Latest version (v0)
 
 ## Features 🚀
 
-- Ease of Styling: Chakra UI contains a set of layout components like `Box` and
-  `Stack` that make it easy to style your components by passing props.
-  <!---->
-- Flexible & composable: Chakra UI components are built on top of a React UI
-  Primitive for endless composability.
-- Accessible. Chakra UI components follow the WAI-ARIA guidelines specifications
-  and have the right `aria-*` attributes.
-- Dark Mode 😍: Most components in Chakra UI are dark mode compatible.
+- Multiple Styling Pallettes
+- Super Fast Load times
+- Industry Standard Accessibility
+- Dark Mode Enabled
+- Responsive!
 
 ## Support Sexy-UI 💖
 
