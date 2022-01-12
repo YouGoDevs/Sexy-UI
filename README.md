@@ -109,7 +109,7 @@ Big Thanks to our amazing Gang of Thieves!
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Geller99"><img src="https://avatars2.githubusercontent.com/u/6916170?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Geller99</b></sub></a><br /><a href="https://github.com/chakra-ui/chakra-ui/commits?author=segunadebayo" title="Code">💻</a> <a href="#maintenance-gellermicael" title="Maintenance">🚧</a> <a href="https://github.com/sexy-uicommits?author=gellermicael" title="Documentation">📖</a> <a href="#example-gellermicael" title="Examples">💡</a> <a href="#design-gellermicael" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Geller99"><img src="/" width="64px;" alt=""/><br /><sub><b>Geller99</b></sub></a><br /><a href="https://github.com/chakra-ui/chakra-ui/commits?author=segunadebayo" title="Code">💻</a> <a href="#maintenance-gellermicael" title="Maintenance">🚧</a> <a href="https://github.com/sexy-uicommits?author=gellermicael" title="Documentation">📖</a> <a href="#example-gellermicael" title="Examples">💡</a> <a href="#design-gellermicael" title="Design">🎨</a></td>
     
   </tr>
   
