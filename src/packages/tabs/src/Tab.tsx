@@ -7,9 +7,12 @@ export const TabMain = styled.div`
   display: flex;
   flex-direction: column;
   border: 1px solid blue;
-  height: 20px;
-  width: 40px;
+  height: 5vh;
+  width: 10vw;
+  border-radius: 20px;
   background-color: blanchedalmond;
+  text-align: center;
+  font-size: 1rem;
 `;
 
 /*
@@ -20,18 +23,16 @@ export const TabMain = styled.div`
 */
 
 export const Tab: any = ({ children }: any) => {
-
   // tabContent is used to update the TabContent component via contextApi
   const tabContent = children[1].props;
   const localStore = useContext(MyStore);
 
-  // update the context store with the content of chosen tab 
+  // update the context store with the content of chosen tab
   // TODO: make the default tabContent start with the 0th tab instance not the latest
   useEffect(() => {
     localStore.setContent(tabContent);
   }, []);
 
-  
   const handleContentSetting = () => {
     // update context store onClick
     localStore.setContent(tabContent);
@@ -40,10 +41,6 @@ export const Tab: any = ({ children }: any) => {
   return (
     <TabMain aria-label="inactive" onClick={handleContentSetting}>
       {children[0]}
-      {children &&
-        children.map((element: any) => {
-          return <h1> {console.log(element.props)} </h1>;
-        })}
     </TabMain>
   );
 };

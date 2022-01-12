@@ -23,11 +23,12 @@ Latest version (v0)
 
 ## Features 🚀
 
-- Multiple Styling Pallettes
+- Multiple Styling Options
 - Super Fast Load times
 - Industry Standard Accessibility
 - Dark Mode Enabled
 - Responsive!
+- Premium Documentation
 
 ## Support Sexy-UI 💖
 
