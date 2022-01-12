@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">Zero dependencies, just plug and play UI components </h1>
+<h1 align="center">Build fast, Scale high -  just plug and play UI components </h1>
 
 <br>
 
