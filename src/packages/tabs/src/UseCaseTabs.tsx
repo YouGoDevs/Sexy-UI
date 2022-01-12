@@ -3,24 +3,30 @@ import { TabList } from "./TabList";
 import { Tab } from "./Tab";
 import { TabPanels } from "./TabPanels";
 import { TabContent } from "./TabContent";
+import { TitleWrapper } from "./wrappers/TitleWrapper";
+import { ContentWrapper } from "./wrappers/ContentWrapper";
 
 export const UseCaseTabs = () => {
   return (
     <Tabs>
       <TabList>
         <Tab>
-          One
-          <p>Welcome to Tab 1</p>
+          <TitleWrapper>One </TitleWrapper>
+          <ContentWrapper>
+            <p>Welcome to Tab 1</p>
+          </ContentWrapper>
         </Tab>
         <Tab>
-          <div>Two</div>
-          <div>
-            Welcome to Tab 2<p>How's college treating you these days?</p>
-          </div>
+          <TitleWrapper>Two </TitleWrapper>
+          <ContentWrapper>
+            <p>Welcome to Tab 2</p>
+          </ContentWrapper>
         </Tab>
         <Tab>
-          Three
-          <h1>Welcome to Tab 3</h1>
+          <TitleWrapper>Three </TitleWrapper>
+          <ContentWrapper>
+            <p>Welcome to Tab 3</p>
+          </ContentWrapper>
         </Tab>
       </TabList>
 
