@@ -1,46 +1,131 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://github.com/Geller99/Sexy-Ui">
+   
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Build fast, Scale high -  just plug and play UI components </h1>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/chakra-ui/chakra-ui.svg?logo=lgtm&logoWidth=18"/>
+</p>
+<br />
 
-### `yarn start`
+Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Looking for the documentation? 📝
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Each package has a super detailed description of how it's meant to be used - including a useCase file you can import into the main App.tsx as a sample implementation!
 
-### `yarn test`
+Latest version (v0)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features 🚀
 
-### `yarn build`
+- Ease of Styling: Chakra UI contains a set of layout components like `Box` and
+  `Stack` that make it easy to style your components by passing props.
+  <!---->
+- Flexible & composable: Chakra UI components are built on top of a React UI
+  Primitive for endless composability.
+- Accessible. Chakra UI components follow the WAI-ARIA guidelines specifications
+  and have the right `aria-*` attributes.
+- Dark Mode 😍: Most components in Chakra UI are dark mode compatible.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Support Sexy-UI 💖
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sincerely appreciative of anyone looking to provide code review or write issues or even provide mentoring as I build out this project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Individuals
 
-### `yarn eject`
+Geller Micael
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Organizations
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+YouGo Fullstack Mentoring Group
+Inked-in Technical Writing Community
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Installing Sexy UI
 
-## Learn More
+To get started using Sexy-UI Components, install the
+`@sexy-ui/react` package and its peer dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+$ yarn add @sexy-ui/react styled-components framer-motion@^5
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# or
+
+$ npm i @sexy-ui/react styled-components framer-motion@^5
+```
+
+## Usage
+
+To start using the components, please follow these steps:
+
+1. Wrap your application with the `SexyProvider` provided by
+   **@sexy-ui/react**.
+
+```jsx
+import { SexyProvider } from "@sexy-ui/react"
+
+// Do this at the root of your application
+const  App = ({ children }) => {
+  return <SexyProvider>{children}</SexyProvider>
+}
+```
+
+Optionally, you can wrap your application with the `ToggleColorsProvider` so you
+can toggle between light and dark mode within your app.
+
+2. Here's how to use components
+
+```jsx
+import { Button } from "@sexy-ui/react"
+
+const useCase = () => {
+  return <Button>This Button just got sexier! </Button>
+}
+```
+
+## CodeSandbox Templates
+
+Currenty Building out accessible templates for rapid usage with CodeSandbox and CodePen
+
+
+## Contributing
+
+Looking to contribute? Marvelous! 
+
+Take a peek at our [contributing guide](./CONTRIBUTING.md) to get started or join the mentoring server to get all your questions answered!
+
+
+## Contributors
+
+Big Thanks to our amazing Gang of Thieves!
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Geller99"><img src="/" width="64px;" alt=""/><br /><sub><b>Geller99</b></sub></a><br /><a href="https://github.com/chakra-ui/chakra-ui/commits?author=segunadebayo" title="Code">💻</a> <a href="#maintenance-gellermicael" title="Maintenance">🚧</a> <a href="https://github.com/sexy-uicommits?author=gellermicael" title="Documentation">📖</a> <a href="#example-gellermicael" title="Examples">💡</a> <a href="#design-gellermicael" title="Design">🎨</a></td>
+    
+  </tr>
+  
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
+This project follows the
+[all-contributors](https://github.com/all-contributors/all-contributors)
+specifications.  
+
+
+## License
+
+MIT © [Geller Micael](https://github.com/Geller99)
