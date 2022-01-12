@@ -24,13 +24,13 @@ export const Accordion = ({
   return (
     <div
       style={{ border: "1px solid red" }}
-      onClick={multiple === true ? onToggle : toggleVisible}
+      onClick={toggleVisible}
     >
       <> {children[0]} </>
 
-      {visibility === true ? (
+      {!visibility  ? null : (
         <AccordionPanel> {children[1]} </AccordionPanel>
-      ) : null}
+      )}
     </div>
   );
 };

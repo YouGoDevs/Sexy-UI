@@ -14,6 +14,14 @@ export const UseCaseAccordion = () => {
           <h1>Hello</h1>
           <div>Yerrrr</div>
         </Accordion>
+        <Accordion>
+          <h1>Hello</h1>
+          <div>Yerrrr</div>
+        </Accordion>
+        <Accordion>
+          <h1>Hello</h1>
+          <div>Yerrrr</div>
+        </Accordion>
       </AccordionContainer>
     </div>
   );

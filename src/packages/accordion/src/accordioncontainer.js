@@ -7,12 +7,10 @@ import React from "react";
 
   Toggles visibility for multiple accordions using the "multiple prop"
   
-  
-  
 
 */
 
-export const AccordionContainer = ({ children, multiple = false }) => {
+export const AccordionContainer = ({ children }) => {
   
   // setActive accordion state and visibility from Parent container
   // const [activeAccordion, setActiveAccordion] = useState(null);
