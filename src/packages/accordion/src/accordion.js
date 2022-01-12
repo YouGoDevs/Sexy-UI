@@ -10,17 +10,17 @@ export const Accordion = ({
   onToggle,
 }) => {
  /* 
- local visibility toggle to manage visibility in individual components
-
+  local visibility toggle to manage visibility in individual components
  */
   const [visibility, setVisibility] = useState(false);
 
   const toggleVisible = () => {
     setVisibility((prev) => !prev);
- 
   };
 
+  // if no accordions exist return null
   if (!children) return null;
+
   return (
     <div
       style={{ border: "1px solid red" }}
