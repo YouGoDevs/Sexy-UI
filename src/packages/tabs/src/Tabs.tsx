@@ -23,6 +23,6 @@ interface Props {
   content: any;
 }
 
-export const Tabs: any = ({ children, content }: Props) => {
+export const Tabs: any = ({ children }: Props) => {
   return <TabsComponent>{children}</TabsComponent>;
 };

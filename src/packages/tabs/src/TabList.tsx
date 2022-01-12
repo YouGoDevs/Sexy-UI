@@ -2,7 +2,7 @@ import styled from "styled-components";
 import React from 'react';
 
 
-///// Wrapper for tab components inside Tabs**
+// Wrapper for tab components inside Tabs**
 
 const ListedTabs = styled.div`
   display: flex;

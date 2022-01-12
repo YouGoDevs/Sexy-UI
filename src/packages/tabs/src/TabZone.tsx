@@ -20,7 +20,7 @@ export const TabZone = () => {
           </Tab>
           <Tab>
             Two
-            <h1>Welcome to Tab 2</h1>
+            <h1>Welcome to Tab 2</h1>•
           </Tab>
           <Tab>
             Three
@@ -32,7 +32,7 @@ export const TabZone = () => {
         </TabList>
 
         <TabPanels>
-          <TabContent/>
+          <TabContent />
         </TabPanels>
       </Tabs>
     </MyStore.Provider>

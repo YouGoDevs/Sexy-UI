@@ -1,5 +1,10 @@
-import React, { useContext, useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { MyStore } from "../context/myStore";
+
+/*
+  This component displays content received from the context store
+  The content received is updated by clicking on any tab instance
+*/
 
 export const TabContent: any = ({ children }: any) => {
   const localStore = useContext(MyStore);
@@ -9,6 +14,8 @@ export const TabContent: any = ({ children }: any) => {
   });
 
   return (
+    // check if store content exists, then display the children property
+
     <div>
       {localStore.content ? (
         <h1> {localStore.content.children} </h1>
