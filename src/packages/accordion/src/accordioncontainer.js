@@ -9,11 +9,10 @@ import React, { useRef, useState } from "react";
 
 */
 
-export const AccordionContainer = ({ children }) => {
+export const AccordionContainer = ({ children, single }) => {
   const visibilityRef = useRef();
 
   const [activeAccordion, setActiveAccordion] = useState(null);
-  let single = true;
 
   return (
     <div>
@@ -24,7 +23,7 @@ export const AccordionContainer = ({ children }) => {
           index: index,
           setActiveAccordion: setActiveAccordion,
           active: index === activeAccordion,
-          single: single
+          single: single,
         });
       })}
     </div>

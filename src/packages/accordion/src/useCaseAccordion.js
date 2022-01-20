@@ -5,7 +5,7 @@ import { AccordionContainer } from "./accordioncontainer";
 export const UseCaseAccordion = () => {
   return (
     <div>
-      <AccordionContainer>
+      <AccordionContainer single={false}>
         <Accordion>
           <h1>Hello</h1>
           <div>Yerrrr</div>
