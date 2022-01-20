@@ -1,18 +1,37 @@
-import { useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import React from "react";
 import { AccordionPanel } from "./accordionpanel";
 
-export const Accordion = ({ children }) => {
+export const Accordion = ({
+  children,
+  visibilityRef,
+  index,
+  setActiveAccordion,
+  active,
+  single,
+}) => {
   /* 
   local visibility toggle to manage visibility in individual components
  */
 
-  const visibilityRef = useRef();
+  const [visibility, setVisibility] = useState(false);
 
-  const [visibility, setVisibility] = useState(true);
+  useEffect(() => {
+    if (single) setVisibility(active);
+  }, [single, active]);
 
   const toggleVisible = () => {
-    setVisibility((prev) => !prev);
+    if (!visibility) {
+      if (single === true) {
+        setActiveAccordion(index);
+      }
+    } else {
+      if (single === true) {
+        setActiveAccordion(-1);
+      }
+    }
+
+    if (!single) setVisibility((prev) => !prev);
   };
 
   /* 
@@ -20,22 +39,12 @@ export const Accordion = ({ children }) => {
   This method closes tabs if you click outside of the div in visibilityRef.current
 
  */
-  const closeOnOutsideClick = (e) => {
-    if (!visibilityRef.current === e.target) {
-      setVisibility(false);
-    }
-  };
-
-  console.log(visibilityRef);
-  // if no accordions exist return null
   if (!children) return null;
 
   return (
     <div
       style={{ border: "1px solid red" }}
-      // attempting to run both methods side by side with an inline function
       onClick={(e) => {
-        closeOnOutsideClick(e);
         toggleVisible();
       }}
       ref={visibilityRef}

@@ -2,7 +2,7 @@
 
 A custom slider carousel component
 
-The `CarouselContainer` and `Slider` are parent and child components, each Slider component added to the CarouselContainer is added to an array and accessed via an internalized index property.
+The `CarouselContainer` and `Slider` are parent and child components, each Slider component added to the CarouselContainer is added to an array and accessed via an index property.
 
 ## Installation
 
@@ -45,7 +45,7 @@ Sliders come in a few different variants for styling and each variant has a colo
 
 ```
 
-### Manually Activated Carousels
+### Activated Carousels
 
 By default, `Carousels` are activated automatically. This means when you use the arrow keys to change sliders, when the carousel container is activated and focused.
 

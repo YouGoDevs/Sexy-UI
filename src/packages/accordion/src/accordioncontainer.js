@@ -1,5 +1,4 @@
-import { useState } from "react";
-import React from "react";
+import React, { useRef, useState } from "react";
 
 /*
 
@@ -11,21 +10,21 @@ import React from "react";
 */
 
 export const AccordionContainer = ({ children }) => {
-  
-  // setActive accordion state and visibility from Parent container
-  // const [activeAccordion, setActiveAccordion] = useState(null);
-  // const [visibility, setVisibility] = useState(false);
+  const visibilityRef = useRef();
 
-  // const toggleFromParent = () => {
-  //   setVisibility((prev) => !prev);
-  // };
-        
-  
+  const [activeAccordion, setActiveAccordion] = useState(null);
+  let single = true;
+
   return (
     <div>
       {children.map((child, index) => {
         return React.cloneElement(child, {
           child: { ...child },
+          visibilityRef: visibilityRef,
+          index: index,
+          setActiveAccordion: setActiveAccordion,
+          active: index === activeAccordion,
+          single: single
         });
       })}
     </div>
