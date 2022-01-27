@@ -4,12 +4,15 @@ import React, { useRef, useState } from "react";
 
   This component acts a wrapper for for each accordion instance 
 
-  Toggles visibility for multiple accordions using the "multiple prop"
+  Contains multiple instances of accordion.js and tracks the active instance via index
   
+  This container houses the useRef
 
 */
 
-export const AccordionContainer = ({ children, single }) => {
+
+
+export const AccordionContainer = ({ children, allowSingle }) => {
   const visibilityRef = useRef();
 
   const [activeAccordion, setActiveAccordion] = useState(null);
@@ -23,7 +26,7 @@ export const AccordionContainer = ({ children, single }) => {
           index: index,
           setActiveAccordion: setActiveAccordion,
           active: index === activeAccordion,
-          single: single,
+          allowSingle: allowSingle,
         });
       })}
     </div>
