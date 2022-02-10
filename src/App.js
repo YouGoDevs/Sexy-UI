@@ -12,9 +12,10 @@ const App = () => {
         width: "100vw",
         alignItems: "center",
         justifyContent: "center",
+        color: "black",
       }}
     >
-      <Calendar/>
+      <UseCaseAccordion />
     </div>
   );
 };
