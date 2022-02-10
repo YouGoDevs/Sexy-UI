@@ -19,7 +19,7 @@ Sexy-UI simplifies the first step in your production process by providing super-
 
 Each package has a super detailed description of how it's meant to be used - including a useCase file you can import into the main App.tsx as a sample implementation!
 
-Latest version (v0.0.1)
+Latest version (v0.0.2)
 
 ## Features 🚀
 
