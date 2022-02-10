@@ -13,13 +13,13 @@
 </p>
 <br />
 
-Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components 
+Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components
 
 ## Looking for the documentation? 📝
 
 Each package has a super detailed description of how it's meant to be used - including a useCase file you can import into the main App.tsx as a sample implementation!
 
-Latest version (v0)
+Latest version (v0.0.1)
 
 ## Features 🚀
 
@@ -43,7 +43,6 @@ Geller Micael
 YouGo Fullstack Mentoring Group
 Inked-in Technical Writing Community
 
-
 ## Installing Sexy UI
 
 To get started using Sexy-UI Components, install the
@@ -65,12 +64,12 @@ To start using the components, please follow these steps:
    **@sexy-ui/react**.
 
 ```jsx
-import { SexyProvider } from "@sexy-ui/react"
+import { SexyProvider } from "@sexy-ui/react";
 
 // Do this at the root of your application
-const  App = ({ children }) => {
-  return <SexyProvider>{children}</SexyProvider>
-}
+const App = ({ children }) => {
+  return <SexyProvider>{children}</SexyProvider>;
+};
 ```
 
 Optionally, you can wrap your application with the `ToggleColorsProvider` so you
@@ -79,24 +78,22 @@ can toggle between light and dark mode within your app.
 2. Here's how to use components
 
 ```jsx
-import { Button } from "@sexy-ui/react"
+import { Button } from "@sexy-ui/react";
 
 const useCase = () => {
-  return <Button>This Button just got sexier! </Button>
-}
+  return <Button>This Button just got sexier! </Button>;
+};
 ```
 
 ## CodeSandbox Templates
 
 Currenty Building out accessible templates for rapid usage with CodeSandbox and CodePen
 
-
 ## Contributing
 
-Looking to contribute? Marvelous! 
+Looking to contribute? Marvelous!
 
 Take a peek at our [contributing guide](./CONTRIBUTING.md) to get started or join the mentoring server to get all your questions answered!
-
 
 ## Contributors
 
@@ -118,11 +115,9 @@ Big Thanks to our amazing Gang of Thieves!
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-
 This project follows the
 [all-contributors](https://github.com/all-contributors/all-contributors)
-specifications.  
-
+specifications.
 
 ## License
 
