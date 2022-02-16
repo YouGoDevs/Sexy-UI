@@ -7,7 +7,6 @@
 
 ```
 
-
 - Accessibility: components should be written to follow Ally-11 or AR-ARIA Guidelines for accessibility
 - SSR-ready: All Sexy UI components must support server side rendering and be optimized for it
 - No Focus Rings

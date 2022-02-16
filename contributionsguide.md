@@ -1,6 +1,6 @@
 
 
-***Welcome to SexyUI's Contribution Guide***
+**Welcome to SexyUI's Contribution Guide**
 
 Thanks for choosing to build this project with us! Here's a brief introduction to what this guide covers and how you can hit the ground running with ease
 
