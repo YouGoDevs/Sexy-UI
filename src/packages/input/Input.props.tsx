@@ -1,4 +1,4 @@
-import { LiteralUnion, SizeType } from "../../type-utils";
+import { SizeType } from "../../type-utils";
 
 export interface InputProps
   extends Omit<
