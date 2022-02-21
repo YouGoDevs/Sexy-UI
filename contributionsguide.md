@@ -41,7 +41,7 @@ You're ready for the next step!
 
 The next step is to grab a link from the project and use the git clone command to get a copy on your local machine
 
-```![Grab URL](./assets/Screenshot (144).png)```
+![Grab URL](https://github.com/YouGoDevs/Sexy-UI/blob/QA/assets/Screenshot%20(144).png)
 
 In the command-line of your text editor or OS, enter the command
 ``` 
