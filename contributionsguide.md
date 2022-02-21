@@ -88,6 +88,8 @@ git checkout -b "new branch" -  this creates a new branch and immediately switch
 
 When creating branches to submit for SexyUI, use the prefixes fix/branchName or feature/branchName to specify if your submission is a bug-fix or a new feature
 
+<br/><br/>
+<br/><br/>
 
 **Coding and Committing**
 
@@ -96,12 +98,15 @@ When building your feature or fix, use easy to read commit messages and commit f
 We've provided a more extensive resource on building the best commit messages -  https://reflectoring.io/meaningful-commit-messages/
 
 
+<br/><br/>
+<br/><br/>
 
 **Contributions Credit**
 
 Every approved contributor appears on the insights of the project and is allowed to use SexyUI for a portfolio or resume reference
 
-
+<br/><br/>
+<br/><br/>
 ## How does a PR get merged? 
 
 A PR gets merged after it has been reviewed by any of the team of devs 
