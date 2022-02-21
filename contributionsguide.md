@@ -40,7 +40,7 @@ Once you click this button, there should be a copy of this project local to your
 
 **You're ready for the next step!** 
 
-<br/><br/>
+<br/>
 
 **Clone to your Local Computer (image)**
 
@@ -63,7 +63,7 @@ cd Sexy-UI
 
 Congrats! You now have a personal copy of the project on your local machine, let's discuss Branching next!
 
-<br/><br/>
+<br/>
 
 ### Feature Branch - feature or fix branch
 If you're completely new to the term branching, no worries! Take a look at this crash course! -> https://www.varonis.com/blog/git-branching
@@ -95,7 +95,7 @@ git checkout -b "new branch" -  this creates a new branch and immediately switch
 
 When creating branches to submit for SexyUI, use the prefixes fix/branchName or feature/branchName to specify if your submission is a bug-fix or a new feature
 
-<br/><br/>
+<br/>
 
 <hr />
 
@@ -105,8 +105,7 @@ When building your feature or fix, use easy to read commit messages and commit f
 
 We've provided a more extensive resource on building the best commit messages -  https://reflectoring.io/meaningful-commit-messages/
 
-
-<br/><br/>
+<br/>
 
 ### Contributions Credit
 
@@ -118,12 +117,9 @@ Every approved contributor appears on the insights of the project and is allowed
 
 A PR gets merged after it has been reviewed by any of the team of devs 
 
+<br/>
 
-
-
-
-
-
+<hr/>
 ## Code Style Guide
 
 Once you're done preparing your repo for changes, we'd love to quickly examine the general guidelines and patterns around the codebase
