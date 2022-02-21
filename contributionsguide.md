@@ -9,7 +9,6 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 - [ ] Code Style Guide
 - [ ] Collaborating with our maintainers
 
-<br/><br/>
 
 **Getting Started**
 
@@ -62,7 +61,7 @@ Congrats! You now have a personal copy of the project on your local machine, let
 
 <br/><br/>
 
-**Feature Branch - feature or fix branch** 
+<h2>Feature Branch - feature or fix branch</h2>
 If you're completely new to the term branching, no worries! Take a look at this crash course! -> https://www.varonis.com/blog/git-branching
 
 
