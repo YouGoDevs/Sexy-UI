@@ -105,20 +105,20 @@ We've provided a more extensive resource on building the best commit messages - 
 
 <br/>
 
-#### Contributions Credit
+#### **Contributions Credit**
 
 Every approved contributor appears on the insights of the project and is allowed to use SexyUI for a portfolio or resume reference
 
 
 <br/>
 
-#### How does a PR get merged?
+#### **How does a PR get merged?**
 
 A PR gets merged after it has been reviewed by any of the team of devs 
 
 <br/><br/>
 
-## Code Style Guide
+## **Code Style Guide**
 
 Once you're done preparing your repo for changes, we'd love to quickly examine the general guidelines and patterns around the codebase
 
@@ -128,22 +128,22 @@ Uniformity ensures maintainers can very easily reference changes and new contrib
 
 
 
-#### Component Pattern
+#### **Component Pattern**
 
 
 
 
 
-#### Contribution Process && Reviews
+#### **Contribution Process && Reviews**
 
 
 
 
 
-#### Predefined screen sizes in media queries
+#### **Predefined screen sizes in media queries**
 
 
 
 
 
-#### Nested media queries
+#### **Nested media queries**
