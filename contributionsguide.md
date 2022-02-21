@@ -120,6 +120,17 @@ If needed, the team will reach out to you regarding live code-review or working 
 
 For fixes, the YouGo team will create discussions around the fix and provide insights before any major changes are approved.
 
+<br/>
+
+#### **Collaborating with Maintainers**
+
+Hey there! thanks for reading through this, we'd love to hear your opinions, suggestions and insights on any proposed changes on our ``discord`` community
+
+Please contact us via ``Gellera800@gmail.com`` to setup meetings to collaborate with maintainers on this project.
+
+We truly appreciate the time and effort you've taken here and look forward to meeting you! 
+
+
 <br/><br/>
 
 ## **Code Style Guide**
