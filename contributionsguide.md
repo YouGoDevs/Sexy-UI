@@ -106,9 +106,9 @@ We've provided a more extensive resource on building the best commit messages - 
 
 Every approved contributor appears on the insights of the project and is allowed to use SexyUI for a portfolio or resume reference
 
-<br/><br/>
 
-</h2>How does a PR get merged?</h2>
+
+<h2>How does a PR get merged?</h2>
 
 A PR gets merged after it has been reviewed by any of the team of devs 
 
