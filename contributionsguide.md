@@ -40,7 +40,7 @@ Once you click this button, there should be a copy of this project local to your
 
 <br/>
 
-**Clone to your Local Computer (image)**
+**Clone to your Local Computer**
 
 The next step is to grab a link from the project and use the ``git clone`` command to get a copy on your local machine
 
@@ -97,7 +97,7 @@ When creating branches to submit for SexyUI, use the prefixes fix/branchName or 
 
 <hr />
 
-### Coding and Committing
+#### Coding and Committing
 
 When building your feature or fix, use easy to read commit messages and commit frequently for every distinct change.
 
@@ -105,14 +105,14 @@ We've provided a more extensive resource on building the best commit messages - 
 
 <br/>
 
-### Contributions Credit
+#### Contributions Credit
 
 Every approved contributor appears on the insights of the project and is allowed to use SexyUI for a portfolio or resume reference
 
 
 <br/>
 
-### How does a PR get merged?
+#### How does a PR get merged?
 
 A PR gets merged after it has been reviewed by any of the team of devs 
 
@@ -128,22 +128,22 @@ Uniformity ensures maintainers can very easily reference changes and new contrib
 
 
 
-**Component Pattern**
+#### Component Pattern
 
 
 
 
 
-**Contribution Process && Reviews**
+#### Contribution Process && Reviews
 
 
 
 
 
-**Predefined screen sizes in media queries**
+#### Predefined screen sizes in media queries
 
 
 
 
 
-**Nested media queries**
+#### Nested media queries
