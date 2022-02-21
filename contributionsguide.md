@@ -34,6 +34,8 @@ Do this by navigating to the project's main page https://github.com/Geller99/Sex
 
 Once you click this button, there should be a copy of this project local to your github account.
 
+![Grab URL](https://github.com/YouGoDevs/Sexy-UI/blob/QA/assets/Screenshot%20(154).png)
+
 You're ready for the next step! 
 
 <br/><br/>
