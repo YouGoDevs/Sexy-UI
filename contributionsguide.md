@@ -1,6 +1,5 @@
 
-
-**Welcome to SexyUI's Contribution Guide**
+## Welcome to SexyUI's Contribution Guide
 
 Thanks for choosing to build this project with us! Here's what this guide covers and how you can hit the ground running with ease.
 
@@ -60,7 +59,7 @@ Congrats! You now have a personal copy of the project on your local machine, let
 
 
 ## Feature Branch - feature or fix branch 
-If you're completely new to the term branching, no worries! Take a look at this crash course! -> (link)
+If you're completely new to the term branching, no worries! Take a look at this crash course! -> https://www.varonis.com/blog/git-branching
 
 
 When you're looking to add an entire new component or make a significant change to a package, the best way to get started is with a new branch
