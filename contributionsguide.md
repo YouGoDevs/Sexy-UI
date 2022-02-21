@@ -2,14 +2,14 @@
 
 **Welcome to SexyUI's Contribution Guide**
 
-Thanks for choosing to build this project with us! Here's a brief introduction to what this guide covers and how you can hit the ground running with ease
+Thanks for choosing to build this project with us! Here's what this guide covers and how you can hit the ground running with ease.
 
 
-- Code of Conduct 
-- Contribution Workflow
-- Understanding Component Patterns
-- General Guide to Git workflow
-- Collaborating with our maintainers
+- [ ] Code of Conduct 
+- [ ] Contribution Workflow
+- [ ] Understanding Component Patterns
+- [ ] General Guide to Git workflow
+- [ ] Collaborating with our maintainers
 
 
 **Getting Started**
@@ -40,6 +40,8 @@ You're ready for the next step!
 ## Clone to your Local Computer (image)
 
 The next step is to grab a link from the project and use the git clone command to get a copy on your local machine
+
+![Grab URL](./assets/Screenshot (144).png "URL")
 
 In the command-line of your text editor or OS, enter the command
 ``` 
