@@ -10,7 +10,7 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 - [ ] Collaborating with our maintainers
 
 
-**Getting Started**
+<h2>Getting Started</h2>
 
 - Take a look at our code of conduct (link) to understand how we keep this community approachable, respectable and inclusive to everyone!
 
@@ -26,7 +26,7 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 
 Before you get started making delightful submissions, there are a few simple steps:
 
-**Fork the repo (image)**
+<h2>Fork the repo (image)</h2>
 
 You need to ``fork`` the project repo to your github account to get started
 
@@ -93,7 +93,7 @@ When creating branches to submit for SexyUI, use the prefixes fix/branchName or 
 
 <br/><br/>
 
-**Coding and Committing**
+<h2>Coding and Committing</h2>
 
 When building your feature or fix, use easy to read commit messages and commit frequently for every distinct change.
 
@@ -102,12 +102,13 @@ We've provided a more extensive resource on building the best commit messages - 
 
 <br/><br/>
 
-**Contributions Credit**
+<h2>Contributions Credit</h2>
 
 Every approved contributor appears on the insights of the project and is allowed to use SexyUI for a portfolio or resume reference
 
 <br/><br/>
-## How does a PR get merged? 
+
+</h2>How does a PR get merged?</h2>
 
 A PR gets merged after it has been reviewed by any of the team of devs 
 
