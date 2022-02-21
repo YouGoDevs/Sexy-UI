@@ -26,7 +26,7 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 
 Before you get started making delightful submissions, there are a few simple steps:
 
-<h2>Fork the repo (image)</h2>
+### Fork the repo
 
 You need to ``fork`` the project repo to your github account to get started
 
@@ -38,7 +38,7 @@ Once you click this button, there should be a copy of this project local to your
 
 
 
-You're ready for the next step! 
+**You're ready for the next step!** 
 
 <br/><br/>
 
@@ -65,7 +65,7 @@ Congrats! You now have a personal copy of the project on your local machine, let
 
 <br/><br/>
 
-<h2>Feature Branch - feature or fix branch</h2>
+### Feature Branch - feature or fix branch
 If you're completely new to the term branching, no worries! Take a look at this crash course! -> https://www.varonis.com/blog/git-branching
 
 
@@ -97,7 +97,7 @@ When creating branches to submit for SexyUI, use the prefixes fix/branchName or 
 
 <br/><br/>
 
-<hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr />
+<hr />
 
 ### Coding and Committing
 
