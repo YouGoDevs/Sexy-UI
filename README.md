@@ -13,7 +13,7 @@
 </p>
 <br />
 
-Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components
+Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components.
 
 ## Looking for the documentation? 📝
 
@@ -32,7 +32,7 @@ Latest version (v0.0.2)
 
 ## Support Sexy-UI 💖
 
-Sincerely appreciative of anyone looking to provide code review or write issues or even provide mentoring as I build out this project
+Sincerely appreciative of anyone looking to provide code review or write issues or even provide mentoring as I build out this project!
 
 ### Individuals
 
@@ -64,30 +64,30 @@ To start using the components, please follow these steps:
    **@sexy-ui/react**.
 
 ```jsx
-import { SexyProvider } from "@sexy-ui/react";
+import { SexyProvider } from '@sexy-ui/react'
 
 // Do this at the root of your application
 const App = ({ children }) => {
-  return <SexyProvider>{children}</SexyProvider>;
-};
+  return <SexyProvider>{children}</SexyProvider>
+}
 ```
 
 Optionally, you can wrap your application with the `ToggleColorsProvider` so you
 can toggle between light and dark mode within your app.
 
-2. Here's how to use components
+2. Here's how to use components:
 
 ```jsx
-import { Button } from "@sexy-ui/react";
+import { Button } from '@sexy-ui/react'
 
 const useCase = () => {
-  return <Button>This Button just got sexier! </Button>;
-};
+  return <Button>This Button just got sexier! </Button>
+}
 ```
 
 ## CodeSandbox Templates
 
-Currenty Building out accessible templates for rapid usage with CodeSandbox and CodePen
+Currenty Building out accessible templates for rapid usage with CodeSandbox and CodePen.
 
 ## Contributing
 
