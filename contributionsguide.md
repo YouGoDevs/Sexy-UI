@@ -36,9 +36,7 @@ Do this by navigating to the project's main page https://github.com/Geller99/Sex
 
 Once you click this button, there should be a copy of this project local to your github account.
 
-
-
-**You're ready for the next step!** 
+*You're ready for the next step!*
 
 <br/>
 
@@ -112,14 +110,14 @@ We've provided a more extensive resource on building the best commit messages - 
 Every approved contributor appears on the insights of the project and is allowed to use SexyUI for a portfolio or resume reference
 
 
+<br/>
 
 ### How does a PR get merged?
 
 A PR gets merged after it has been reviewed by any of the team of devs 
 
-<br/>
+<br/><br/>
 
-<hr/>
 ## Code Style Guide
 
 Once you're done preparing your repo for changes, we'd love to quickly examine the general guidelines and patterns around the codebase
