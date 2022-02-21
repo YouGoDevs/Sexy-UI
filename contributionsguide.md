@@ -15,7 +15,7 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 - Take a look at our ![Code of conduct](https://github.com/YouGoDevs/Sexy-UI/blob/QA/codeofconduct.md) to understand how we keep this community approachable, respectable and inclusive to everyone!
 
 
-``To get some insight on the project, head over to the (ReadMe) file and take a look.``
+``To get some insight on the project, head over to the ![Project ReadMe](https://github.com/YouGoDevs/Sexy-UI/blob/Kohl/README.md) file and take a look.``
 
 ``Once you're done with that, let's get you started on the best Github workflow so you can get to contributing right away.``
 
@@ -30,7 +30,7 @@ Before you get started making delightful submissions, there are a few simple ste
 
 You need to ``fork`` the project repo to your github account to get started
 
-Do this by navigating to the project's main page https://github.com/Geller99/Sexy-UI and clicking the ``fork`` button at the top-right corner of your screen, below the top nav-bar.
+Do this by navigating to the project's main page https://github.com/YouGoDevs/Sexy-UI and clicking the ``fork`` button at the top-right corner of your screen, below the top nav-bar.
 
 ![Grab URL](https://github.com/YouGoDevs/Sexy-UI/blob/QA/assets/Screenshot%20(154).png)
 
@@ -48,7 +48,7 @@ The next step is to grab a link from the project and use the ``git clone`` comma
 
 In the command-line of your text editor or OS, enter the command
 ``` 
-git clone https://github.com/Geller99/Sexy-UI.git
+git clone https://github.com/YouGoDevs/Sexy-UI
 
 ```
 

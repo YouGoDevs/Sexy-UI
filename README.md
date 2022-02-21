@@ -95,7 +95,7 @@ Currenty Building out accessible templates for rapid usage with CodeSandbox and 
 
 Looking to contribute? Marvelous! 
 
-Take a peek at our [contributing guide](./CONTRIBUTING.md) to get started or join the mentoring server to get all your questions answered!
+Take a peek at our [contributions guide](https://github.com/YouGoDevs/Sexy-UI/blob/QA/contributionsguide.md) to get started or join the mentoring server to get all your questions answered!
 
 
 ## Contributors
