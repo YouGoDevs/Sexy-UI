@@ -114,7 +114,11 @@ Every approved contributor appears on the insights of the project and is allowed
 
 #### **How does a PR get merged?**
 
-A PR gets merged after it has been reviewed by any of the team of devs 
+Your PRs get merged after extensive code review by the team of maintainers. We may reach out to gain insight or clarity on certain new features 
+
+If needed, the team will reach out to you regarding live code-review or working together to integrate your new feature. 
+
+For fixes, the YouGo team will create discussions around the fix and provide insights before any major changes are approved.
 
 <br/><br/>
 
