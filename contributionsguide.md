@@ -9,6 +9,7 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 - [ ] Code Style Guide
 - [ ] Collaborating with our maintainers
 
+<br/><br/>
 
 **Getting Started**
 
@@ -20,6 +21,7 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 ``Once you're done with that, let's get you started on the best Github workflow so you can get to contributing right away.``
 
 
+<br/><br/>
 
 ## Git
 
@@ -35,6 +37,7 @@ Once you click this button, there should be a copy of this project local to your
 
 You're ready for the next step! 
 
+<br/><br/>
 
 **Clone to your Local Computer (image)**
 
@@ -57,6 +60,7 @@ cd Sexy-UI
 
 Congrats! You now have a personal copy of the project on your local machine, let's discuss Branching next!
 
+<br/><br/>
 
 **Feature Branch - feature or fix branch** 
 If you're completely new to the term branching, no worries! Take a look at this crash course! -> https://www.varonis.com/blog/git-branching
@@ -89,7 +93,6 @@ git checkout -b "new branch" -  this creates a new branch and immediately switch
 When creating branches to submit for SexyUI, use the prefixes fix/branchName or feature/branchName to specify if your submission is a bug-fix or a new feature
 
 <br/><br/>
-<br/><br/>
 
 **Coding and Committing**
 
@@ -99,13 +102,11 @@ We've provided a more extensive resource on building the best commit messages - 
 
 
 <br/><br/>
-<br/><br/>
 
 **Contributions Credit**
 
 Every approved contributor appears on the insights of the project and is allowed to use SexyUI for a portfolio or resume reference
 
-<br/><br/>
 <br/><br/>
 ## How does a PR get merged? 
 
