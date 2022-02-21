@@ -9,7 +9,7 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 
 ### Getting Started
 
-- Take a look at our ![Code of Conduct](https://github.com/YouGoDevs/Sexy-UI/blob/QA/codeofconduct.md) to understand how we keep this community approachable, respectable and inclusive to everyone!
+- Take a look at our ![Code of Conduct](https://github.com/YouGoDevs/Sexy-UI/blob/QA/codeofconduct.md) to understand how we keep this community approachable, respectable and inclusive to everyone.
 
 To get some insight on the project, head over to the ![Project ReadMe](https://github.com/YouGoDevs/Sexy-UI/blob/Kohl/README.md) file and take a look.
 
