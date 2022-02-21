@@ -5,9 +5,8 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 
 
 - [ ] Code of Conduct 
-- [ ] Contribution Workflow
-- [ ] Understanding Component Patterns
-- [ ] General Guide to Git workflow
+- [ ] Git Contribution Workflow
+- [ ] Code Style Guide
 - [ ] Collaborating with our maintainers
 
 
@@ -15,9 +14,10 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 
 - Take a look at our code of conduct (link) to understand how we keep this community approachable, respectable and inclusive to everyone!
 
-To get some insight on the project, head over to the (ReadMe) file and take a look. 
 
-Once you're done with that, let's get you started on the best Github workflow so you can get to contributing right away.
+``To get some insight on the project, head over to the (ReadMe) file and take a look.``
+
+``Once you're done with that, let's get you started on the best Github workflow so you can get to contributing right away.``
 
 
 
@@ -62,7 +62,14 @@ Congrats! You now have a personal copy of the project on your local machine, let
 If you're completely new to the term branching, no worries! Take a look at this crash course! -> https://www.varonis.com/blog/git-branching
 
 
-When you're looking to add an entire new component or make a significant change to a package, the best way to get started is with a new branch
+When you're looking to add an entire new component or make a significant change to a package, the best way to get started is by;
+
+```
+- Creating a new branch on your local computer
+- Pushing it to the forked version of the project on your github
+- Submitting your changes to SexyUI's official repository
+
+```
 
 git provides a few commands for implementing branching in your project;
 
