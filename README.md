@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">Build fast, Scale high -  just plug and play UI components </h1>
+<h1 align="center">Build Fast, Scale High -  Just Plug and Play UI Components </h1>
 
 <br>
 
@@ -13,7 +13,7 @@
 </p>
 <br />
 
-Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components 
+Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components.
 
 ## Looking for the documentation? 📝
 
@@ -32,7 +32,7 @@ Latest version (v0)
 
 ## Support Sexy-UI 💖
 
-Sincerely appreciative of anyone looking to provide code review or write issues or even provide mentoring as I build out this project
+We are sincerely appreciative of anyone looking to provide code review or write issues or even provide mentoring as we build out this project!
 
 ### Individuals
 
@@ -42,7 +42,6 @@ Geller Micael
 
 YouGo Fullstack Mentoring Group
 Inked-in Technical Writing Community
-
 
 ## Installing Sexy UI
 
@@ -65,10 +64,10 @@ To start using the components, please follow these steps:
    **@sexy-ui/react**.
 
 ```jsx
-import { SexyProvider } from "@sexy-ui/react"
+import { SexyProvider } from '@sexy-ui/react'
 
 // Do this at the root of your application
-const  App = ({ children }) => {
+const App = ({ children }) => {
   return <SexyProvider>{children}</SexyProvider>
 }
 ```
@@ -76,10 +75,10 @@ const  App = ({ children }) => {
 Optionally, you can wrap your application with the `ToggleColorsProvider` so you
 can toggle between light and dark mode within your app.
 
-2. Here's how to use components
+2. Here's how to use components:
 
 ```jsx
-import { Button } from "@sexy-ui/react"
+import { Button } from '@sexy-ui/react'
 
 const useCase = () => {
   return <Button>This Button just got sexier! </Button>
@@ -88,15 +87,13 @@ const useCase = () => {
 
 ## CodeSandbox Templates
 
-Currenty Building out accessible templates for rapid usage with CodeSandbox and CodePen
-
+We are currently building out accessible templates for rapid usage with CodeSandbox and CodePen.
 
 ## Contributing
 
-Looking to contribute? Marvelous! 
+Looking to contribute? Marvelous!
 
 Take a peek at our [contributions guide](https://github.com/YouGoDevs/Sexy-UI/blob/QA/contributionsguide.md) to get started or join the mentoring server to get all your questions answered!
-
 
 ## Contributors
 
@@ -118,11 +115,9 @@ Big Thanks to our amazing Gang of Thieves!
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-
 This project follows the
 [all-contributors](https://github.com/all-contributors/all-contributors)
-specifications.  
-
+specifications.
 
 ## License
 
