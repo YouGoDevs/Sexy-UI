@@ -13,7 +13,7 @@ Thanks for choosing to build this project with us! Here's what this guide covers
 
 To get some insight on the project, head over to the ![Project ReadMe](https://github.com/YouGoDevs/Sexy-UI/blob/Kohl/README.md) file and take a look.
 
-`Once you're done with that, let's get you started on the best Github workflow so you can get to contributing right away.`
+`Once you're done with that, let's get you started on the best GitHub workflow so you can get to contributing right away.`
 
 <br/><br/>
 
@@ -23,13 +23,13 @@ Before you get started making delightful submissions, there are a few simple ste
 
 ### Fork the repo
 
-You need to `fork` the project repo to your github account to get started.
+You need to `fork` the project repo to your GitHub account to get started.
 
 Do this by navigating to the project's main page https://github.com/YouGoDevs/Sexy-UI and clicking the `fork` button at the top-right corner of your screen, below the top nav-bar.
 
 ![Grab URL](<https://github.com/YouGoDevs/Sexy-UI/blob/QA/assets/Screenshot%20(154).png>)
 
-Once you click this button, there should be a copy of this project local to your github account.
+Once you click this button, there should be a copy of this project local to your GitHub account.
 
 _You're ready for the next step!_
 
@@ -67,7 +67,7 @@ When you're looking to add an entire new component or make a significant change 
 
 ```
 - Creating a new branch on your local computer
-- Pushing it to the forked version of the project on your github
+- Pushing it to the forked version of the project on your GitHub account
 - Submitting your changes to SexyUI's official repository
 
 ```
