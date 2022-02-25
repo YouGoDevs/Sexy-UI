@@ -68,25 +68,34 @@ For every React component created, there should be component props defined using
 Read more about Typescript Interfaces here -> (link)
 ```
 
-Components should also have explicit typings for props, state variables, and function return values. For a guideline of React and Typescript props, checkout -> (link)
+**Typing** -> 
+Components should also have explicit typings for props, state variables, and function return values. 
+Use typescript generics when you are expecting dynamic props or inputs...or when unaware of the prop types or arguments...
+For a guideline of React and Typescript props, checkout -> (link)
 
 If you need to get familiar with Typescript more, please checkout this youtube series -> (link)
 
-When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit -> (link)
+State Management -> When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit -> (link)
 
 
-Default export should be the most recently declared component in a file
+Syntax Version -> for code uniformity, we opt to align with modern es6 standards when declaring function expressions and components
 
-We choose to avoid circular dependencies by creating separate files for each component needs -> 
-So instead of exporting component and component styles to stories fromt t
+Meaning, we favor
+```
+const myContextHandler = () => {}
+```
 
-Use typescript generics when you are expecting dynamic props or inputs...or when unaware of the prop types or arguments...
+Over 
+```
+function myContextHandler () {
 
-Export one thing per file
+}
 
-ES6 Arrow components - for code uniformity, we opt to align with modern es6 standards when declaring function expressions and components
+```
 
-For Typescript Interface Props - inline with parameters or using React.FC<ComponentProps>
+**Interface Props** 
+
+Inline with parameters or using React.FC<ComponentProps>
 
 ```jsx
       export const Accordion = ({
@@ -109,21 +118,30 @@ For Typescript Interface Props - inline with parameters or using React.FC<Compon
 
 ```
 
-Capital casing for directory and parent compoent 
-use lowercase for helper/utility files
+
+
+**Exports** ->
+
+Default export should be the most recently declared component in a file.
+We choose to avoid circular dependencies by creating separate files for each component needs -> 
+So instead of exporting component and component styles to stories fromt t
+Export one thing per file
 index file for global exporting
+
+
 
 
 
 <br/>
 
-#### **Variable and Method namings**
 
-SexyUI's naming convention focuses on complete clarity for variables, methods, classes etc. The goal is to ensure the variable name fully describes exactly what action or purpose it represents
+#### **Variable and Method Namings**
+
+SexyUI's naming convention focuses on complete clarity for variables, methods, classes etc. The goal is to ensure the variable name fully describes exactly what action or purpose it represents.
 
 Examples of inaccurate names ->
 
-```
+```jsx
     const [formValue, setFormValue] = useState('')
 
     const contentFunction
@@ -137,7 +155,7 @@ Examples of inaccurate names ->
 
 A better way to name these will be ->
 
-```
+```jsx
     const [usernameInput, setUserNameInput] = useState('');
 
     const setContentHandler;
@@ -148,18 +166,19 @@ A better way to name these will be ->
 
 ```
 
-
 <br/>
 
-#### **Parent-Child nesting**
+#### **Letter Casing Choices**
 
-<br/>
-
-#### **Name Casing Choices**
-
+- Capital casing for directory and parent compoents
+- use lowercase for helper/utility files and hooks
 <br/>
 
 ### **Styling and Style Props**
+- Inline Media Queries
+- Flex First Approach
+- Using custom attributes for wrapper components
+- Use Provided theme wrappers and pre-defined screen sizes
 
 <br/>
 
@@ -167,6 +186,11 @@ A better way to name these will be ->
 
 Use name of Styled component as attribute...
 
+Use Block Comment to introduce components and explain what they represent
+Use inline comments to highlight changes as you go
+
 <br/>
 
 ### **Code review process**
+
+Code review is conducted in multiple ways, we have isolated reviews and peer-reviews

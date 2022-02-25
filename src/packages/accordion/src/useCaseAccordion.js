@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordion } from "./accordion";
+import { Accordion } from "./Accordion/accordion";
 import { AccordionContainer } from "./accordioncontainer";
 
 export const UseCaseAccordion = () => {
