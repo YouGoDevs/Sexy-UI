@@ -1,4 +1,4 @@
-## **Code Style Guide**
+# **Code Style Guide**
 
 Once you're done preparing your repo for changes, we'd love to quickly show you around the general guidelines and patterns in our codebase.
 
@@ -70,7 +70,7 @@ For every React component created, there should be component props defined using
 Read more about Typescript Interfaces here -> (link)
 ```
 
-**Typing** -> 
+### **Typing** -> 
 
 Components should also have explicit typings for props, state variables, and function return values. 
 Use typescript generics when you are expecting dynamic props or inputs...or when unaware of the prop types or arguments...
@@ -81,7 +81,9 @@ If you need to get familiar with Typescript more, please checkout this youtube s
 State Management -> When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit -> (link)
 
 
-Syntax Version -> for code uniformity, we opt to align with modern es6 standards when declaring function expressions and components
+### **Syntax Version** -> 
+
+For code uniformity, we opt to align with modern es6 standards when declaring function expressions and components
 
 Meaning, we favor
 ```jsx
@@ -96,7 +98,7 @@ function myContextHandler () {
 
 ```
 
-**Interface Props** 
+### **Interface Props** 
 
 Inline with parameters or using React.FC<ComponentProps>
 
@@ -123,7 +125,7 @@ Inline with parameters or using React.FC<ComponentProps>
 
 
 
-**Exports** ->
+### **Exports** ->
 
 Default export should be the most recently declared component in a file.
 We choose to avoid circular dependencies by creating separate files for each component needs -> 
@@ -178,6 +180,7 @@ A better way to name these will be ->
 <br/>
 
 ### **Styling and Style Props**
+
 - Inline Media Queries
 - Flex First Approach
 - Using custom attributes for wrapper components
@@ -193,6 +196,7 @@ Use Block Comment to introduce components and explain what they represent
 Use inline comments to highlight changes as you go
 
 <br/>
+
 
 ### **Code review process**
 
