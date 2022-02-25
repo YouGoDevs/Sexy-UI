@@ -22,18 +22,19 @@ To view the active discussion around this guide, please visit (link)
 <hr/>
 <br/>
 
-### **Folder Structures and namings**
+### **Folder Structures and namings** (img)
+
 
 Our project favors flat folder structures, meaning every component is contained in a private folder along with everything else related to it. Let's take an accordion component for example
 
 ```
     -> component (folder)
-        -  component.tsx
-        -  component.props.ts
-        -  component.test.tsx
-        -  componentStyles.tsx
-        -  component.stories.ts
-        -  component.wrappers.tsx
+        +  component.tsx
+        +  component.props.ts
+        +  component.test.tsx
+        +  componentStyles.tsx
+        +  component.stories.ts
+        +  component.wrappers.tsx
 ```
 
 In our opinion, this structure makes it easier to account for private and global components without conflicting locations - Kindly let us know if you disagree! (support ticket)
@@ -41,6 +42,7 @@ In our opinion, this structure makes it easier to account for private and global
 <br/>
 
 #### **Component Patterns with Typescript**
+
 
 For every React component created, there should be component props defined using an interface. An example is ->
 
@@ -69,6 +71,7 @@ Read more about Typescript Interfaces here -> (link)
 ```
 
 **Typing** -> 
+
 Components should also have explicit typings for props, state variables, and function return values. 
 Use typescript generics when you are expecting dynamic props or inputs...or when unaware of the prop types or arguments...
 For a guideline of React and Typescript props, checkout -> (link)
@@ -81,12 +84,12 @@ State Management -> When implementing state transfer between components, we favo
 Syntax Version -> for code uniformity, we opt to align with modern es6 standards when declaring function expressions and components
 
 Meaning, we favor
-```
+```jsx
 const myContextHandler = () => {}
 ```
 
 Over 
-```
+```jsx
 function myContextHandler () {
 
 }
