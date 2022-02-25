@@ -1,5 +1,9 @@
 # **Code Style Guide**
 
+
+<table>
+<tr>
+<td>
 Once you're done preparing your repo for changes, we'd love to quickly show you around the general guidelines and patterns in our codebase.
 
 The main idea of this guide is to ensure uniformity in everyone's build process. Meaning components, containers, wrappers, styling, stories and tests all follow the same pattern and conventions.
@@ -18,6 +22,10 @@ We'll be covering
 - Code review process
 
 To view the active discussion around this guide, please visit (link)
+
+</td>
+</tr>
+</table>
 
 <hr/>
 <br/>
@@ -41,7 +49,7 @@ In our opinion, this structure makes it easier to account for private and global
 
 <br/>
 
-#### **Component Patterns with Typescript**
+### **Component Patterns with Typescript**
 
 
 For every React component created, there should be component props defined using an interface. An example is ->
@@ -54,7 +62,7 @@ For every React component created, there should be component props defined using
         setActiveAccordion: (index: number) => null;
         active: boolean;
         single: boolean;
-}
+    }
 
     export const Accordion = ({
         children,
@@ -63,9 +71,9 @@ For every React component created, there should be component props defined using
         setActiveAccordion,
         active,
         single,
-}: AccordionProps) => {
+    }: AccordionProps) => {
     //Component Code...
-}
+    }
  
 Read more about Typescript Interfaces here -> (link)
 ```
@@ -110,7 +118,7 @@ Inline with parameters or using React.FC<ComponentProps>
         setActiveAccordion,
         active,
         single,
-}: AccordionProps) => {
+    }: AccordionProps) => {
 
     OR   export const Accordion: React.FC<AccordionProps> = ({
         children,
@@ -119,7 +127,7 @@ Inline with parameters or using React.FC<ComponentProps>
         setActiveAccordion,
         active,
         single,
-}) => {   
+    }) => {   
 
 ```
 
@@ -134,13 +142,10 @@ Export one thing per file
 index file for global exporting
 
 
-
-
-
 <br/>
 
 
-#### **Variable and Method Namings**
+### **Variable and Method Namings**
 
 SexyUI's naming convention focuses on complete clarity for variables, methods, classes etc. The goal is to ensure the variable name fully describes exactly what action or purpose it represents.
 
@@ -173,7 +178,7 @@ A better way to name these will be ->
 
 <br/>
 
-#### **Letter Casing Choices**
+### **Letter Casing Choices**
 
 - Capital casing for directory and parent compoents
 - use lowercase for helper/utility files and hooks

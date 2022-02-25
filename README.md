@@ -15,6 +15,44 @@
 
 Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components 
 
+<div align="center">
+  <br />
+  <br />
+  <a href="https://github.com/dec0dOS/amazing-github-template/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+  ·
+  <a href="https://github.com/dec0dOS/amazing-github-template/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+  .
+  <a href="https://github.com/dec0dOS/amazing-github-template/discussions">Ask a Question</a>
+</div>
+
+<hr/>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Best-README-Template</h3>
+
+  <p align="center">
+    SUI
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+
 ## Looking for the documentation? 📝
 
 Each package has a super detailed description of how it's meant to be used - including a useCase file you can import into the main App.tsx as a sample implementation!
@@ -41,6 +79,7 @@ Geller Micael
 ### Organizations
 
 YouGo Fullstack Mentoring Group
+
 Inked-in Technical Writing Community
 
 
