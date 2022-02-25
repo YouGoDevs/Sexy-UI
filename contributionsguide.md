@@ -133,32 +133,3 @@ We truly appreciate the time and effort you've taken here and look forward to me
 
 <br/><br/>
 
-## **Code Style Guide**
-
-Once you're done preparing your repo for changes, we'd love to quickly examine the general guidelines and patterns around the codebase
-
-The main idea is to have uniform components, containers, wrappers, styling conventions, stories and tests. 
-
-Uniformity ensures maintainers can very easily reference changes and new contributors can easily add to a codebase without much confusion.
-
-
-
-#### **Component Pattern**
-
-
-
-
-
-#### **Contribution Process && Reviews**
-
-
-
-
-
-#### **Predefined screen sizes in media queries**
-
-
-
-
-
-#### **Nested media queries**

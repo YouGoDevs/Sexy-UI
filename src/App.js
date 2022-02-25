@@ -2,7 +2,6 @@ import React from "react";
 import { UseCaseAccordion } from "./packages/accordion/src/useCaseAccordion";
 import { Calendar } from "./packages/calendar/src/Calendar";
 
-
 const App = () => {
   return (
     <div
@@ -14,9 +13,7 @@ const App = () => {
         justifyContent: "center",
         color: "black",
       }}
-    >
-      <UseCaseAccordion />
-    </div>
+    ></div>
   );
 };
 
