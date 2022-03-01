@@ -1,5 +1,4 @@
-# **Code Style Guide**
-
+<h1 align="center"> Code Style Guide </h1>
 
 <table>
 <tr>
@@ -10,18 +9,18 @@ The main idea of this guide is to ensure uniformity in everyone's build process.
 
 Uniformity also ensures maintainers can very easily reference changes and new contributors can easily add to a codebase without much conflict.
 
-We'll be covering
+We'll be covering...
 
-- Folder Structures and namings
-- Component Patterns with Typescript
-- Variable and Method namings
-- Parent-Child nesting
-- Name Casing Choices
-- Styling and Style Props
-- Code comment styles
-- Code review process
+- [ ] Folder Structures and namings
+- [ ] Component Patterns with Typescript
+- [ ] Variable and Method namings
+- [ ] Parent-Child nesting
+- [ ] Name Casing Choices
+- [ ] Styling and Style Props
+- [ ] Code comment styles
+- [ ] Code review process
 
-To view the active discussion around this guide, please visit (link)
+To view the active discussion around this guide, please visit [!this link](https://github.com/YouGoDevs/Sexy-UI/discussions/19)
 
 </td>
 </tr>
@@ -31,7 +30,6 @@ To view the active discussion around this guide, please visit (link)
 <br/>
 
 ### **Folder Structures and namings** (img)
-
 
 Our project favors flat folder structures, meaning every component is contained in a private folder along with everything else related to it. Let's take an accordion component for example
 
@@ -50,7 +48,6 @@ In our opinion, this structure makes it easier to account for private and global
 <br/>
 
 ### **Component Patterns with Typescript**
-
 
 For every React component created, there should be component props defined using an interface. An example is ->
 
@@ -74,39 +71,41 @@ For every React component created, there should be component props defined using
     }: AccordionProps) => {
     //Component Code...
     }
- 
+
 Read more about Typescript Interfaces here -> (link)
 ```
 
-### **Typing** -> 
+### **Typing** ->
 
-Components should also have explicit typings for props, state variables, and function return values. 
+Components should also have explicit typings for props, state variables, and function return values.
+
 Use typescript generics when you are expecting dynamic props or inputs...or when unaware of the prop types or arguments...
+
 For a guideline of React and Typescript props, checkout -> (link)
 
 If you need to get familiar with Typescript more, please checkout this youtube series -> (link)
 
-State Management -> When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit -> (link)
+**State Management** -> 
 
+When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit -> (link)
 
-### **Syntax Version** -> 
+### **Syntax Version** ->
 
 For code uniformity, we opt to align with modern es6 standards when declaring function expressions and components
 
 Meaning, we favor
+
 ```jsx
-const myContextHandler = () => {}
+const myContextHandler = () => {};
 ```
 
-Over 
+Over
+
 ```jsx
-function myContextHandler () {
-
-}
-
+function myContextHandler() {}
 ```
 
-### **Interface Props** 
+### **Interface Props**
 
 Inline with parameters or using React.FC<ComponentProps>
 
@@ -120,30 +119,26 @@ Inline with parameters or using React.FC<ComponentProps>
         single,
     }: AccordionProps) => {
 
-    OR   export const Accordion: React.FC<AccordionProps> = ({
+OR   export const Accordion: React.FC<AccordionProps> = ({
         children,
         visibilityRef,
         index,
         setActiveAccordion,
         active,
         single,
-    }) => {   
+    }) => {
 
 ```
 
-
-
 ### **Exports** ->
 
-Default export should be the most recently declared component in a file.
-We choose to avoid circular dependencies by creating separate files for each component needs -> 
-So instead of exporting component and component styles to stories fromt t
-Export one thing per file
-index file for global exporting
+When exporting components fro a file, the default export should be the most recently declared component in a file.
 
+We also avoid circular dependencies by creating separate files for each component needs and exclusively exporting only one component per file ->
+
+For every component, we also provide an index file for easier import paths when used in other components.
 
 <br/>
-
 
 ### **Variable and Method Namings**
 
@@ -161,7 +156,6 @@ Examples of inaccurate names ->
     const tabMain -  for styled component
 
 ```
-
 
 A better way to name these will be ->
 
@@ -182,27 +176,57 @@ A better way to name these will be ->
 
 - Capital casing for directory and parent compoents
 - use lowercase for helper/utility files and hooks
-<br/>
+  <br/>
 
-### **Styling and Style Props**
+### **Styling, Styled Components and Style Props**
 
-- Inline Media Queries
-- Flex First Approach
-- Using custom attributes for wrapper components
-- Use Provided theme wrappers and pre-defined screen sizes
+SexyUI uses Styled components to implement ``styling``, ``props``, and ``theme-providers``.
+
+We favor a flex-first approach to styling to enable easier debugging, but we also have no real limitations for creative freedom with CSS!
+
+To learn more about styled components, take a look at the official documentation -> (link)
+
+
+**Attributes**
+
+In order to avoid confusion when debugging components, we provide the names of Styled components in data-attributes. Here's an example
+
+```jsx
+<article data-sexyui="StyledArticle">...</article>
+```
+
+**Media Queries**
+
+We favor in-line media queries for each individual components. Here's an example
+
+```
+const StyledTab = `styled.div
+
+`
+```
+
 
 <br/>
 
 ### **Code comment styles**
 
-Use name of Styled component as attribute...
+For readability and accessibility, we define a couple approaches to commenting code and providing ``component-level`` documentation. The general idea is making sure anyone can read through and understand your process, making it easier to debug or learn from it.
 
-Use Block Comment to introduce components and explain what they represent
-Use inline comments to highlight changes as you go
+When building out a ``component``, use ``block`` comments to explain what that component represents and its use-case.
+
+Use ``inline`` comments to highlight important implementation details as you code.
 
 <br/>
 
-
 ### **Code review process**
 
-Code review is conducted in multiple ways, we have isolated reviews and peer-reviews
+Code review on pull-requests can be setup via the discord server or zoom meetings.
+
+We have two preferred approaches to code-review
+
+- Mentor-contributor code-review (usually anonymous)
+- Peer code review (for server devs)
+
+The goal of review sessions is to provide constructive feedback on your contributions before deciding to integrate them with the project.
+
+Our mentors and maintainers will always do their best to provide properly informed reviews as we recognize that open-source is a continuous learning process for everyone.
