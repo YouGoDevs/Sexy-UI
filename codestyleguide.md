@@ -24,7 +24,7 @@ We'll be covering...
 - [ ] Code comment styles
 - [ ] Code review process
 
-To view the active discussion around this guide, please visit [!this link](https://github.com/YouGoDevs/Sexy-UI/discussions/19)
+To view the active discussion around this guide, please visit [this link](https://github.com/YouGoDevs/Sexy-UI/discussions/19)
 
 </td>
 </tr>
@@ -33,21 +33,23 @@ To view the active discussion around this guide, please visit [!this link](https
 <hr/>
 <br/>
 
-### **Folder Structures and Namings** (img)
+### **Folder Structures and Namings** 
 
 Our project favors flat folder structures, meaning every component is contained in a private folder along with everything else related to it. Let's take an accordion component for example
 
 ```
-    -> component (folder)
-        +  component.tsx
-        +  component.props.ts
-        +  component.test.tsx
-        +  componentStyles.tsx
-        +  component.stories.ts
-        +  component.wrappers.tsx
+    -> Component (folder)
+        +  Component.tsx
+        +  Component.props.ts
+        +  Component.test.tsx
+        +  ComponentStyles.tsx
+        +  Component.stories.ts
+        +  Component.wrappers.tsx
 ```
 
-In our opinion, this structure makes it easier to account for private and global components without conflicting locations - Kindly let us know if you disagree! (support ticket)
+In our opinion, this structure makes it easier to account for private and global components without conflicting locations - Kindly let us know if you disagree! 
+
+Open an [Issue](https://github.com/YouGoDevs/Sexy-UI/issues) here
 
 <br/>
 
@@ -76,27 +78,27 @@ For every React component created, there should be component props defined using
     //Component Code...
     }
 ```
-Read more about Typescript Interfaces [!here](https://www.typescriptlang.org/docs/handbook/interfaces.html)
+Read more about Typescript Interfaces [here](https://www.typescriptlang.org/docs/handbook/interfaces.html)
 
 ### **Typing** 
 
 Components should also have explicit typings for props, state variables, and function return values.
 
-Use typescript [!generics](https://www.typescriptlang.org/docs/handbook/2/generics.html) when you are expecting dynamic props or inputs...or when unaware of the prop types or arguments...
+Use typescript [generics](https://www.typescriptlang.org/docs/handbook/2/generics.html) when you are expecting dynamic props or inputs...or when unaware of the prop types or arguments...
 
 For a guideline of React and Typescript props, checkout -> (link)
 
-If you need to get familiar with Typescript more, please checkout this youtube series -> [!No Bs TS](https://www.youtube.com/watch?v=LKVHFHJsiO0&list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
+If you need to get familiar with Typescript more, please checkout this youtube series -> [No Bs TS](https://www.youtube.com/watch?v=LKVHFHJsiO0&list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 
 ### **State Management** 
 
-When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit on [!Context API](https://reactjs.org/docs/context.html)
+When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit on [Context API](https://reactjs.org/docs/context.html)
 
 ### **Syntax Version** 
 
 For code uniformity, we opt to align with modern es6 standards when declaring function expressions and components. 
 
-Read about Es6 [!!here](https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/)
+Read about Es6 [here](https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/)
 
 Meaning, we favor
 
