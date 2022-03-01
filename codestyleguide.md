@@ -41,6 +41,8 @@ Each component in the `packages`` folder contains a source(src) folder which con
 
 here's how it looks!
 
+![Grab URL](https://github.com/YouGoDevs/Sexy-UI/blob/QA/assets/Screenshot%20(164).png)
+
 Our project favors flat folder structures, meaning every component is contained in a private folder along with everything else related to it. Let's take an accordion component for example
 
 ```
