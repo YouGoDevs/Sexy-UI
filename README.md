@@ -35,7 +35,7 @@
 
 ## Looking for the documentation? 📝
 
-Each ``package`` has a super detailed description of how it's meant to be used in a ReadMe - including a useCase file you can import into the main ``App.tsx`` as a sample implementation!
+Each ``package`` has a super detailed description of how it's meant to be used in a ``ReadMe`` - including a useCase file you can import into the main ``App.tsx`` as a sample implementation!
 
 More ``documentation`` can be found on our [official site](/) and on our [storybook](/) 
 
@@ -43,12 +43,13 @@ More ``documentation`` can be found on our [official site](/) and on our [storyb
 
 ## Features 🚀
 
-- [X] Multiple Styling Options
 - [X] Super Fast Load times
 - [X] Industry Standard Accessibility
-- [X] Dark Mode Enabled
-- [X] Responsive!
+- [X] Dark Mode Ready
+- [X] Fully Responsive
 - [X] Premium Documentation
+- [X] SSR Ready
+- [X] Open Source
 
 ## Support Sexy-UI 💖
 
@@ -71,11 +72,11 @@ To get started using Sexy-UI Components, install the
 `@sexy-ui/react` package and its peer dependencies:
 
 ```sh
-$ yarn add @sexy-ui/react styled-components framer-motion@^5
+$ yarn add ``@sexy-ui/react`` styled-components framer-motion@^5
 
 # or
 
-$ npm i @sexy-ui/react styled-components framer-motion@^5
+$ npm i ``@sexy-ui/react`` styled-components framer-motion@^5
 ```
 
 ## Usage
@@ -109,7 +110,7 @@ const useCase = () => {
 
 ## CodeSandbox Templates
 
-Currenty Building out accessible templates for rapid usage with CodeSandbox and CodePen
+Currenty Building out accessible templates for rapid usage and testing with CodeSandbox and CodePen.
 
 
 ## Contributing
