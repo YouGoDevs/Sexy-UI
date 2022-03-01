@@ -3,10 +3,13 @@
 <table>
 <tr>
 <td>
+<tr>
+<td>
 Hey! Welcome to our code style guide! This is a quick read intended to help you understand what patterns we favor for writing components. Let's take a dive in!
+<tr/>
+<td/>
 
-<br/>
-<p>The main idea of this guide is to ensure uniformity in everyone's build process. Meaning components, containers, wrappers, styling, stories and tests all follow the same pattern and conventions.</p>
+The main idea of this guide is to ensure uniformity in everyone's build process. Meaning components, containers, wrappers, styling, stories and tests all follow the same pattern and conventions
 
 Uniformity also ensures maintainers can very easily reference changes and new contributors can easily add to a codebase without much conflict.
 
@@ -30,7 +33,7 @@ To view the active discussion around this guide, please visit [!this link](https
 <hr/>
 <br/>
 
-### **Folder Structures and namings** (img)
+### **Folder Structures and Namings** (img)
 
 Our project favors flat folder structures, meaning every component is contained in a private folder along with everything else related to it. Let's take an accordion component for example
 
@@ -236,7 +239,7 @@ const StyledTab = `styled.div
 
 <br/>
 
-### **Code comment styles**
+### **Code Comment Styles**
 
 For readability and accessibility, we define a couple approaches to commenting code and providing ``component-level`` documentation. The general idea is making sure anyone can read through and understand your process, making it easier to debug or learn from it.
 
@@ -266,7 +269,7 @@ Use ``inline`` comments to highlight important implementation details as you cod
 
 <br/>
 
-### **Code review process**
+### **Code Review Process**
 
 Code review on pull-requests can be setup via the discord server or zoom meetings.
 
@@ -284,4 +287,4 @@ Thanks for taking a read! We'll be available for any other questions in this [di
 
 Feel free to highlight any mistakes you see or let us know any contributions you have.
 
-Welcome to SexyUI!
+``Welcome to SexyUI!``
