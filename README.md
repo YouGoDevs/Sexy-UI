@@ -19,6 +19,7 @@
   <br />
   <br />
    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+   <br/>
   <a href="https://github.com/dec0dOS/amazing-github-template/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
   <a href="https://github.com/dec0dOS/amazing-github-template/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
@@ -34,26 +35,28 @@
 
 ## Looking for the documentation? 📝
 
-Each package has a super detailed description of how it's meant to be used - including a useCase file you can import into the main App.tsx as a sample implementation!
+Each ``package`` has a super detailed description of how it's meant to be used in a ReadMe - including a useCase file you can import into the main ``App.tsx`` as a sample implementation!
 
-Latest version (v0)
+More ``documentation`` can be found on our [official site](/) and on our [storybook](/) 
+
+``Latest version (v0)``
 
 ## Features 🚀
 
-- Multiple Styling Options
-- Super Fast Load times
-- Industry Standard Accessibility
-- Dark Mode Enabled
-- Responsive!
-- Premium Documentation
+- [X] Multiple Styling Options
+- [X] Super Fast Load times
+- [X] Industry Standard Accessibility
+- [X] Dark Mode Enabled
+- [X] Responsive!
+- [X] Premium Documentation
 
 ## Support Sexy-UI 💖
 
-Sincerely appreciative of anyone looking to provide code review or write issues or even provide mentoring as I build out this project
+We'd love your input in any way you can! Please take a look at our [contributions guide](https://github.com/YouGoDevs/Sexy-UI/blob/QA/contributionsguide.md) or the [discussions board](https://github.com/YouGoDevs/Sexy-UI/discussions/25) or reach out to us via ``gellera800@gmail.com`` if you would like to get on the team as a maintainer/mentor.
 
 ### Individuals
 
-Geller Micael
+Lead Develoeper - Geller Micael 
 
 ### Organizations
 
