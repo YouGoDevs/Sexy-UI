@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">Build fast, Scale high -  just plug and play UI components </h1>
+<h1 align="center">Build Fast, Scale High -  just plug and play UI components </h1>
 
 <br>
 
@@ -13,11 +13,12 @@
 </p>
 <br />
 
-Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components 
+<p align="center"> Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components </p>
 
 <div align="center">
   <br />
   <br />
+   <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
   <a href="https://github.com/dec0dOS/amazing-github-template/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
   ·
   <a href="https://github.com/dec0dOS/amazing-github-template/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
@@ -27,28 +28,6 @@ Sexy-UI simplifies the first step in your production process by providing super-
 
 <hr/>
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    SUI
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
 
 
 
