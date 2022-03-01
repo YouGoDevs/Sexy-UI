@@ -72,9 +72,8 @@ For every React component created, there should be component props defined using
     }: AccordionProps) => {
     //Component Code...
     }
-
-Read more about Typescript Interfaces here -> (link)
 ```
+Read more about Typescript Interfaces [!here](https://www.typescriptlang.org/docs/handbook/interfaces.html)
 
 ### **Typing** 
 
@@ -200,9 +199,9 @@ utils...
 
 We favor a flex-first approach to styling to enable easier debugging, but we also have no real limitations for creative freedom with CSS!
 
-Read up on flex-box [!here](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+Read up on flex-box [here](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-To learn more about styled components, take a look at the official [!documentation](https://styled-components.com/)
+To learn more about styled components, take a look at the official [documentation](https://styled-components.com/)
 
 
 **Attributes**
@@ -231,6 +230,7 @@ const StyledTab = `styled.div
       @media screen and (min-width: 720px) {
          /* insert rule-set */
       } 
+    `
 ```
 
 
@@ -273,8 +273,15 @@ Code review on pull-requests can be setup via the discord server or zoom meeting
 We have two preferred approaches to code-review
 
 - Mentor-contributor code-review (usually anonymous)
-- Peer code review (for server devs)
+- Peer code review (with server devs)
 
 The goal of review sessions is to provide constructive feedback on your contributions before deciding to integrate them with the project.
 
 Our mentors and maintainers will always do their best to provide properly informed reviews as we recognize that open-source is a continuous learning process for everyone.
+
+
+Thanks for taking a read! We'll be available for any other questions in this [discussions](https://github.com/YouGoDevs/Sexy-UI/discussions/19) board. 
+
+Feel free to highlight any mistakes you see or let us know any contributions you have.
+
+Welcome to SexyUI!
