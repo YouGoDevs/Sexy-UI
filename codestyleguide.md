@@ -5,6 +5,7 @@
 <td>
 Once you're done preparing your repo for changes, we'd love to quickly show you around the general guidelines and patterns in our codebase.
 
+
 The main idea of this guide is to ensure uniformity in everyone's build process. Meaning components, containers, wrappers, styling, stories and tests all follow the same pattern and conventions.
 
 Uniformity also ensures maintainers can very easily reference changes and new contributors can easily add to a codebase without much conflict.
@@ -75,7 +76,7 @@ For every React component created, there should be component props defined using
 Read more about Typescript Interfaces here -> (link)
 ```
 
-### **Typing** ->
+### **Typing** 
 
 Components should also have explicit typings for props, state variables, and function return values.
 
@@ -85,11 +86,11 @@ For a guideline of React and Typescript props, checkout -> (link)
 
 If you need to get familiar with Typescript more, please checkout this youtube series -> (link)
 
-**State Management** -> 
+### **State Management** 
 
-When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit -> (link)
+When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit (link)
 
-### **Syntax Version** ->
+### **Syntax Version** 
 
 For code uniformity, we opt to align with modern es6 standards when declaring function expressions and components
 
@@ -130,11 +131,11 @@ OR   export const Accordion: React.FC<AccordionProps> = ({
 
 ```
 
-### **Exports** ->
+### **Exports**
 
 When exporting components fro a file, the default export should be the most recently declared component in a file.
 
-We also avoid circular dependencies by creating separate files for each component needs and exclusively exporting only one component per file ->
+We also avoid circular dependencies by creating separate files for each component needs and exclusively exporting only one component per file.
 
 For every component, we also provide an index file for easier import paths when used in other components.
 
@@ -144,7 +145,7 @@ For every component, we also provide an index file for easier import paths when 
 
 SexyUI's naming convention focuses on complete clarity for variables, methods, classes etc. The goal is to ensure the variable name fully describes exactly what action or purpose it represents.
 
-Examples of inaccurate names ->
+Examples of inaccurate names 
 
 ```jsx
     const [formValue, setFormValue] = useState('')
