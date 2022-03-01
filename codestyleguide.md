@@ -3,9 +3,9 @@
 <table>
 <tr>
 <td>
-Once you're done preparing your repo for changes, we'd love to quickly show you around the general guidelines and patterns in our codebase.
+Hey! Welcome to our code style guide! This is a quick read intended to help you understand what patterns we favor for writing components. Let's take a dive in!
 
-
+<br/>
 The main idea of this guide is to ensure uniformity in everyone's build process. Meaning components, containers, wrappers, styling, stories and tests all follow the same pattern and conventions.
 
 Uniformity also ensures maintainers can very easily reference changes and new contributors can easily add to a codebase without much conflict.
@@ -80,19 +80,21 @@ Read more about Typescript Interfaces here -> (link)
 
 Components should also have explicit typings for props, state variables, and function return values.
 
-Use typescript generics when you are expecting dynamic props or inputs...or when unaware of the prop types or arguments...
+Use typescript [!generics](https://www.typescriptlang.org/docs/handbook/2/generics.html) when you are expecting dynamic props or inputs...or when unaware of the prop types or arguments...
 
 For a guideline of React and Typescript props, checkout -> (link)
 
-If you need to get familiar with Typescript more, please checkout this youtube series -> (link)
+If you need to get familiar with Typescript more, please checkout this youtube series -> [!No Bs TS](https://www.youtube.com/watch?v=LKVHFHJsiO0&list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 
 ### **State Management** 
 
-When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit (link)
+When implementing state transfer between components, we favor React internals like useContext and customHooks to avoid extra peer dependencies. To get more familiar with React context, please visit on [!Context API](https://reactjs.org/docs/context.html)
 
 ### **Syntax Version** 
 
-For code uniformity, we opt to align with modern es6 standards when declaring function expressions and components
+For code uniformity, we opt to align with modern es6 standards when declaring function expressions and components. 
+
+Read about Es6 [!!here](https://www.freecodecamp.org/news/write-less-do-more-with-javascript-es6-5fd4a8e50ee2/)
 
 Meaning, we favor
 
@@ -133,19 +135,19 @@ OR   export const Accordion: React.FC<AccordionProps> = ({
 
 ### **Exports**
 
-When exporting components fro a file, the default export should be the most recently declared component in a file.
+When exporting components from a file, the default export should be the most recently declared component in a file.
 
-We also avoid circular dependencies by creating separate files for each component needs and exclusively exporting only one component per file.
+We also avoid confusing patterns by creating separate files for each component needs and exclusively exporting only ``ONE`` component per file.
 
-For every component, we also provide an index file for easier import paths when used in other components.
+For every component, we also provide an ``index`` file for easier import paths when used in other components.
 
 <br/>
 
 ### **Variable and Method Namings**
 
-SexyUI's naming convention focuses on complete clarity for variables, methods, classes etc. The goal is to ensure the variable name fully describes exactly what action or purpose it represents.
+``SexyUI's`` naming convention focuses on complete clarity for variables, methods, classes etc. The goal is to ensure the variable name fully describes exactly what action or purpose it represents.
 
-Examples of inaccurate names 
+Examples of inaccurate variable names 
 
 ```jsx
     const [formValue, setFormValue] = useState('')
@@ -158,7 +160,7 @@ Examples of inaccurate names
 
 ```
 
-A better way to name these will be ->
+A better way to name these will be
 
 ```jsx
     const [usernameInput, setUserNameInput] = useState('');
@@ -177,15 +179,30 @@ A better way to name these will be ->
 
 - Capital casing for directory and parent compoents
 - use lowercase for helper/utility files and hooks
+
+```jsx
+    Accordion.tsx 
+
+    // is preferred for components over accordion.tsx
+
+
+utils...
+    useStore.ts 
+
+    // is the favord convention for utility and helper files like custom hooks
+    
+```
   <br/>
 
 ### **Styling, Styled Components and Style Props**
 
-SexyUI uses Styled components to implement ``styling``, ``props``, and ``theme-providers``.
+``SexyUI`` uses Styled components to implement ``styling``, ``props``, and ``theme-providers``.
 
 We favor a flex-first approach to styling to enable easier debugging, but we also have no real limitations for creative freedom with CSS!
 
-To learn more about styled components, take a look at the official documentation -> (link)
+Read up on flex-box [!here](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+To learn more about styled components, take a look at the official [!documentation](https://styled-components.com/)
 
 
 **Attributes**
@@ -202,8 +219,18 @@ We favor in-line media queries for each individual components. Here's an example
 
 ```
 const StyledTab = `styled.div
+      display: inline-block;
+      border-radius: 3px;
+      padding: 0.5rem 0;
+      margin: 0.5rem 1rem;
+      width: 11rem;
+      background: transparent;
+      color: white;
+      border: 2px solid white;
 
-`
+      @media screen and (min-width: 720px) {
+         /* insert rule-set */
+      } 
 ```
 
 
@@ -214,6 +241,26 @@ const StyledTab = `styled.div
 For readability and accessibility, we define a couple approaches to commenting code and providing ``component-level`` documentation. The general idea is making sure anyone can read through and understand your process, making it easier to debug or learn from it.
 
 When building out a ``component``, use ``block`` comments to explain what that component represents and its use-case.
+
+Here's an example of using block components to introduce a component
+
+```jsx
+...
+
+/*
+  This component acts a wrapper for for each accordion instance 
+  Contains multiple instances of accordion.js and tracks the active instance via index
+  
+  This container houses the useRef
+*/
+
+
+
+export const AccordionContainer = ({ children, allowSingle }) => {
+  const visibilityRef = useRef();
+
+...
+```
 
 Use ``inline`` comments to highlight important implementation details as you code.
 
