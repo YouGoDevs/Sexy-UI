@@ -6,7 +6,7 @@
 Hey! Welcome to our code style guide! This is a quick read intended to help you understand what patterns we favor for writing components. Let's take a dive in!
 
 <br/>
-The main idea of this guide is to ensure uniformity in everyone's build process. Meaning components, containers, wrappers, styling, stories and tests all follow the same pattern and conventions.
+<p>The main idea of this guide is to ensure uniformity in everyone's build process. Meaning components, containers, wrappers, styling, stories and tests all follow the same pattern and conventions.</p>
 
 Uniformity also ensures maintainers can very easily reference changes and new contributors can easily add to a codebase without much conflict.
 
