@@ -35,6 +35,12 @@ To view the active discussion around this guide, please visit [this link](https:
 
 ### **Folder Structures and Namings** 
 
+The general structure of the project has individual components placed in the ``/packages`` folder inside the project ``src``
+
+Each component in the `packages`` folder contains a source(src) folder which contains folders of individual sub-components
+
+here's how it looks!
+
 Our project favors flat folder structures, meaning every component is contained in a private folder along with everything else related to it. Let's take an accordion component for example
 
 ```

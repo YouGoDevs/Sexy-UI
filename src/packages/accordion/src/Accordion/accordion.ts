@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import React from "react";
-import { AccordionPanel } from "../accordionpanel";
+import { AccordionPanel } from "../AccordionPanel/AccordionPanel";
 
 export const Accordion = ({
   children,
