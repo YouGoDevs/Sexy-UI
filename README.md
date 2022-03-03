@@ -36,8 +36,10 @@ Sexy-UI simplifies the first step in your production process by providing super-
 Each ``package`` has a super detailed description of how it's meant to be used in a ``ReadMe`` - including a useCase file you can import into the main ``App.tsx`` as a sample implementation!
 
 
+
 Latest version (v0.0.2)
 More ``documentation`` can be found on our [official site](/) and on our [storybook](/) 
+
 
 
 ## Features 🚀
@@ -52,7 +54,7 @@ More ``documentation`` can be found on our [official site](/) and on our [storyb
 
 ## Support Sexy-UI 💖
 
-We'd love your input in any way you can! Please take a look at our [contributions guide](https://github.com/YouGoDevs/Sexy-UI/blob/QA/contributionsguide.md) or the [discussions board](https://github.com/YouGoDevs/Sexy-UI/discussions/25) or reach out to us via ``gellera800@gmail.com`` if you would like to get on the team as a maintainer/mentor.
+We'd love your input in any way you can provide! Please take a look at our [contributions guide](https://github.com/YouGoDevs/Sexy-UI/blob/QA/contributionsguide.md) or the [discussions board](https://github.com/YouGoDevs/Sexy-UI/discussions/25) or reach out to us via ``gellera800@gmail.com`` if you would like to get on the team as a maintainer/mentor.
 
 ### Individuals
 
@@ -96,7 +98,7 @@ const App = ({ children }) => {
 Optionally, you can wrap your application with the `ToggleColorsProvider` so you
 can toggle between light and dark mode within your app.
 
-2. Here's how to use components
+2. Here's how to use components:
 
 ```jsx
 import { Button } from "@sexy-ui/react";
@@ -108,7 +110,7 @@ const useCase = () => {
 
 ## CodeSandbox Templates
 
-Currenty Building out accessible templates for rapid usage and testing with CodeSandbox and CodePen.
+Currenty building out accessible templates for rapid usage and testing with CodeSandbox and CodePen.
 
 ## Contributing
 
