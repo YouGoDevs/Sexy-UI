@@ -1,5 +1,6 @@
 import React from "react";
-import { UseCaseAccordion } from "./packages/accordion/src/useCaseAccordion";
+import { UseCaseAccordion } from "./packages/Accordion/src/useCaseAccordion";
+import { Calendar } from "./packages/calendar/src/Calendar";
 
 const App = () => {
   return (
@@ -10,10 +11,9 @@ const App = () => {
         width: "100vw",
         alignItems: "center",
         justifyContent: "center",
+        color: "black",
       }}
-    >
-      <UseCaseAccordion/>
-    </div>
+    ></div>
   );
 };
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import React from "react";
-import { AccordionPanel } from "./accordionpanel";
+import { AccordionPanel } from "../AccordionPanel/AccordionPanel";
 
 export const Accordion = ({
   children,
@@ -8,7 +8,7 @@ export const Accordion = ({
   index,
   setActiveAccordion,
   active,
-  single,
+  allowSingle,
 }) => {
   /* 
   local visibility toggle to manage visibility in individual components
@@ -16,22 +16,26 @@ export const Accordion = ({
 
   const [visibility, setVisibility] = useState(false);
 
+
+  // This useEffect runs multiple checks to determine what the value of 'visibility' is
+  // if the allowSingle prop exists, set the value of visibility === active
+  // else, leave the value as 'false' and enable toggling - line 38
   useEffect(() => {
-    if (single) setVisibility(active);
-  }, [single, active]);
+    if (allowSingle) setVisibility(active);
+  }, [allowSingle, active]);
 
   const toggleVisible = () => {
     if (!visibility) {
-      if (single === true) {
+      if (allowSingle === true) {
         setActiveAccordion(index);
       }
     } else {
-      if (single === true) {
+      if (allowSingle === true) {
         setActiveAccordion(-1);
       }
     }
 
-    if (!single) setVisibility((prev) => !prev);
+    if (!allowSingle) setVisibility((prev) => !prev);
   };
 
   /* 
