@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { useEffect, useContext } from "react";
-import { useStore, Store } from "../context/useStore";
-import { MyStore } from "../context/myStore";
+import { useStore, Store } from "./useStore";
+import { MyStore } from "./myStore";
 
 // Wrapper for tab components inside Tabs**
 

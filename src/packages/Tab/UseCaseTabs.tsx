@@ -3,8 +3,8 @@ import { TabList } from "./TabList";
 import { Tab } from "./Tab";
 import { TabPanels } from "./TabPanels";
 import { TabContent } from "./TabContent";
-import { TitleWrapper } from "./wrappers/TitleWrapper";
-import { ContentWrapper } from "./wrappers/ContentWrapper";
+import { TitleWrapper } from "./TitleWrapper";
+import { ContentWrapper } from "./ContentWrapper";
 
 export const UseCaseTabs = () => {
   return (

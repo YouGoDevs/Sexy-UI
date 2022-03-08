@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
-import { MyStore } from "../context/myStore";
-import { useStore } from "../context/useStore";
+import { MyStore } from "./myStore";
+import { useStore } from "./useStore";
 
 /*
   This component displays content received from the context store

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import styled from "styled-components";
-import { MyStore } from "../context/myStore";
+import { MyStore } from "./myStore";
 import { useEffect } from "react";
 
 export const TabMain = styled.div`
