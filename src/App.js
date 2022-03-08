@@ -1,6 +1,6 @@
 import React from "react";
 import { UseCaseAccordion } from "./packages/Accordion/useCaseAccordion";
-import { UseCaseTabs } from './packages/Tab/UseCaseTabs';
+
 
 const App = () => {
   return (
@@ -15,7 +15,6 @@ const App = () => {
       }}
     >
       <UseCaseAccordion/>
-      <UseCaseTabs/>
     </div>
   );
 };
