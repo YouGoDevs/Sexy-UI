@@ -2,12 +2,12 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import { Input } from "./packages/Input";
 import { SexyTheme } from "./packages/SexyTheme/SexyTheme";
-import { lightTheme } from "./utils/theme.util";
+import { darkTheme, lightTheme } from "./utils/theme.util";
 
 const App = () => {
   return (
     <div>
-      <SexyTheme theme={SexyTheme}>
+      <SexyTheme theme={darkTheme}>
         <Input className="primary" />
       </SexyTheme>
       <ThemeProvider theme={lightTheme}>
