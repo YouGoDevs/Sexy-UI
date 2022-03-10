@@ -7,7 +7,7 @@ import { darkTheme, lightTheme } from "./utils/theme.util";
 const App = () => {
   return (
     <div>
-      <SexyTheme theme={darkTheme}>
+      <SexyTheme>
         <Input className="primary" />
       </SexyTheme>
       <ThemeProvider theme={lightTheme}>
