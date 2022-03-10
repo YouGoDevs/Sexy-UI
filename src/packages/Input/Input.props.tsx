@@ -1,4 +1,4 @@
-import { SizeType } from "../../utils/utils.type";
+import { SizeType } from "../../utils/types.util";
 
 export interface InputProps
   extends Omit<React.InputHTMLAttributes<HTMLInputElement>, "type"> {
