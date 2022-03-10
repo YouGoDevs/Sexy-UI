@@ -20,12 +20,12 @@ Sexy-UI simplifies the first step in your production process by providing super-
 <div align="center">
   <br />
   <br />
-   <a href="https://github.com/YouGoDevs/Sexy-UI/blob/QA/README.md"><strong>Explore the docs »</strong></a>
+   <a href="https://github.com/YouGoDevs/Sexy-UI/blob/Kohl/README.md"><strong>Explore the docs »</strong></a>
    <br/>
   <a href="https://github.com/YouGoDevs/Sexy-UI/issues/new">Report a Bug</a>
   ·
   <a href="https://github.com/YouGoDevs/Sexy-UI/discussions/new">Request a Feature</a>
-  .
+  ·
   <a href="https://github.com/YouGoDevs/Sexy-UI/discussions/25">Ask a Question</a>
 </div>
 
@@ -54,7 +54,7 @@ More ``documentation`` can be found on our [official site](/) and on our [storyb
 
 ## Support Sexy-UI 💖
 
-We'd love your input in any way you can provide! Please take a look at our [contributions guide](https://github.com/YouGoDevs/Sexy-UI/blob/QA/contributionsguide.md) or the [discussions board](https://github.com/YouGoDevs/Sexy-UI/discussions/25) or reach out to us via ``gellera800@gmail.com`` if you would like to get on the team as a maintainer/mentor.
+We'd love your input in any way you can provide! Please take a look at our [contributions guide](https://github.com/YouGoDevs/Sexy-UI/blob/Kohl/contributionsguide.md) or the [discussions board](https://github.com/YouGoDevs/Sexy-UI/discussions/25) or reach out to us via ``gellera800@gmail.com`` if you would like to get on the team as a maintainer/mentor.
 
 ### Individuals
 
@@ -116,7 +116,7 @@ Currenty building out accessible templates for rapid usage and testing with Code
 
 Looking to contribute? Marvelous!
 
-Take a peek at our [contributions guide](https://github.com/YouGoDevs/Sexy-UI/blob/QA/contributionsguide.md) to get started or join the mentoring server to get all your questions answered!
+Take a peek at our [contributions guide](https://github.com/YouGoDevs/Sexy-UI/blob/Kohl/contributionsguide.md) to get started or join the mentoring server to get all your questions answered!
 
 ## Contributors
 
