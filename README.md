@@ -58,7 +58,7 @@ We'd love your input in any way you can provide! Please take a look at our [cont
 
 ### Individuals
 
-Lead Develoeper - Geller Micael 
+Lead Developer - Geller Micael 
 
 ### Organizations
 
