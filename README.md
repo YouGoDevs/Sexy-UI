@@ -13,8 +13,6 @@
 </p>
 <br />
 
-Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components
-
 <p align="center"> Sexy-UI simplifies the first step in your production process by providing super-accessible plug and play UI components </p>
 
 <div align="center">
