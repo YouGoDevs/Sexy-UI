@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/chakra-ui/chakra-ui.svg?logo=lgtm&logoWidth=18"/>
+  <img alt="Language grade: JavaScript" src="##"/>
 </p>
 <br />
 
