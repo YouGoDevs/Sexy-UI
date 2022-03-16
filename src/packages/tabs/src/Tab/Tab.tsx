@@ -1,7 +1,8 @@
 import { useContext } from "react";
 import styled from "styled-components";
-import { MyStore } from "../context/myStore";
+import { MyStore } from "../../context/myStore";
 import { useEffect } from "react";
+import { ThemeProvider } from "styled-components";
 
 export const TabMain = styled.div`
   display: flex;
@@ -32,6 +33,8 @@ export const Tab: any = ({ children }: any) => {
   useEffect(() => {
     localStore.setContent(tabContent);
   }, []);
+
+  
 
   const handleContentSetting = () => {
     // update context store onClick

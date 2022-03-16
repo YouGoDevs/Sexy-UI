@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react";
 import styles from "../styles/styles.module.css";
 
-import { PreviousButton, NextButton } from "./slidebutton";
+import { PreviousButton, NextButton } from "../Slider/SliderButtons";
 
 /* 
   use case file defines an ideal use case for the component

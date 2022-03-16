@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { MyStore } from "../context/myStore";
-import { useStore } from "../context/useStore";
+import { MyStore } from "../../context/myStore";
+import { useStore } from "../../context/useStore";
 
 export const TabsComponent = styled.div`
   display: flex;

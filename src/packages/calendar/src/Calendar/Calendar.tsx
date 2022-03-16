@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import moment from "moment";
 import styled from "styled-components";
-import { buildCalendar } from "../utils/build";
+import { buildCalendar } from "./build.util";
 
 const Day = styled.div`
   display: flex;
