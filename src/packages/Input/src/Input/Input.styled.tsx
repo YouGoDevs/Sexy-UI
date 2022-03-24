@@ -1,7 +1,7 @@
 import styled from "styled-components";
+import { setFontSize } from "../../../../utils/styles.util";
+import { darkTheme } from "../../../../utils/theme.util";
 import { InputProps } from "./Input.props";
-import { darkTheme } from "../../utils/theme.util";
-import { setFontSize } from "../../utils/styles.util";
 
 export const StyledInput = styled.input<InputProps>`
   ${(props: InputProps) => setFontSize(props.sizeVariant)}

@@ -1,16 +1,9 @@
-import styled from "styled-components";
 import { useEffect, useContext } from "react";
-import { useStore, Store } from "../context/useStore";
-import { MyStore } from "../context/myStore";
+import { useStore, Store } from "../../context/useStore";
+import { MyStore } from "../../context/myStore";
+import { StyledTabList } from "./TabList.styled";
 
 // Wrapper for tab components inside Tabs**
-
-const ListedTabs = styled.div`
-  display: flex;
-  width: 100%;
-  height: 30%;
-  gap: 70px;
-`;
 
 /*
   We use this component to set the default starting value of the `TabContent` component 
@@ -29,5 +22,5 @@ export const TabList: any = ({ children }: any) => {
     myStore.setContent(children[store.selectedTab].props.children[1].props);
   }, []);
 
-  return <ListedTabs>{children}</ListedTabs>;
+  return <StyledTabList>{children}</StyledTabList>;
 };
