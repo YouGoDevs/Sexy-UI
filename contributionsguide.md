@@ -101,6 +101,18 @@ We've provided a more extensive resource on building the best commit messages - 
 
 <br/>
 
+### Folder Structures for import ###
+Folder structure for new components & how imports should work with setup
+```
+/src/packages/[Component]/src
+\- index.tsx
+\- Readme
+
+/src/packages/[Component]/src/[Sub-Component]/
+
+import { Component, SubComponent, SubComponentTwo } from '@sexui/component';
+```
+
 #### **Contributions Credit**
 
 Every approved contributor appears on the insights of the project and is allowed to use SexyUI for a portfolio or resume reference.
