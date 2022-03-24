@@ -1,8 +1,8 @@
-import { Tabs } from "./Tabs";
-import { TabList } from "./TabList";
-import { Tab } from "./Tab";
-import { TabPanels } from "./TabPanels";
-import { TabContent } from "./TabContent";
+import { Tabs } from "./Tabs/Tabs";
+import { TabList } from "./TabList/TabList";
+import { Tab } from "./Tab/Tab";
+import { TabPanels } from "./TabPanels/TabPanels";
+import { TabContent } from "./TabContent/TabContent";
 import { TitleWrapper } from "./wrappers/TitleWrapper";
 import { ContentWrapper } from "./wrappers/ContentWrapper";
 

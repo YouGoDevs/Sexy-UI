@@ -1,19 +1,7 @@
 import { useContext } from "react";
-import styled from "styled-components";
-import { MyStore } from "../context/myStore";
+import { MyStore } from "../../context/myStore";
 import { useEffect } from "react";
-
-export const TabMain = styled.div`
-  display: flex;
-  flex-direction: column;
-  border: 1px solid blue;
-  height: 5vh;
-  width: 10vw;
-  border-radius: 20px;
-  background-color: blanchedalmond;
-  text-align: center;
-  font-size: 1rem;
-`;
+import { StyledTab } from "./Tab.styled";
 
 /*
   The Tab component accepts two elements into the 'children' array
@@ -39,8 +27,8 @@ export const Tab: any = ({ children }: any) => {
   };
 
   return (
-    <TabMain aria-label="inactive" onClick={handleContentSetting}>
+    <StyledTab aria-label="inactive" onClick={handleContentSetting}>
       {children[0]}
-    </TabMain>
+    </StyledTab>
   );
 };
