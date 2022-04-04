@@ -1,8 +1,7 @@
 import { useState } from "react";
 import React from "react";
-import styles from "../styles/styles.module.css";
-
 import { PreviousButton, NextButton } from "../Slider/SliderButtons";
+import { StyledCarousel } from "./Carousel.style";
 
 /* 
   use case file defines an ideal use case for the component
@@ -14,11 +13,11 @@ import { PreviousButton, NextButton } from "../Slider/SliderButtons";
 
 */
 
-interface CarouselProps {
-  children: [];
+interface CarouselProps<T> {
+  children: JSX.Element[] | T[] ;
 }
 
-export const CarouselContainer = ({ children }: CarouselProps) => {
+ const Carousel = <T extends any>({ children }: CarouselProps<T>) => {
   const [index, setIndex] = useState<number>(0);
 
   /* after defining local state to track active index from "children array", we define methods to handle incrementing 
@@ -40,16 +39,17 @@ export const CarouselContainer = ({ children }: CarouselProps) => {
   };
 
   // handle null case if there are no child elements in "children"
-  if (children.length === 0) return null;
+  if (!children) return null;
+  if (children.length === undefined) return null;
+  if (children.length !== 2) return null;
 
   return (
-    <div className={styles.carousel}>
+    <StyledCarousel>
       <PreviousButton handlePreviousSlide={handlePreviousSlide} />
       {children && children[index]}
-
-      {console.log("index", index)}
-
       <NextButton handleNextSlide={handleNextSlide} />
-    </div>
+    </StyledCarousel>
   );
 };
+
+export default Carousel;

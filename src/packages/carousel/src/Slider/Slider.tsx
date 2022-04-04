@@ -1,15 +1,12 @@
+import React from "react";
+import { StyledSlider } from "./Slider.style";
 
-import React from 'react'
-import styles from '../styles/slider.module.css';
-
-interface SliderProps<T> {
-  children: T[]
+interface SliderProps {
+  children?: JSX.Element | undefined | any;
 }
 
-export const Slider = <T extends any>({children}: SliderProps<T> ) => {
-  return (
-    <div className={styles.Slider}>
-      {children}
-    </div>
-  )
-}
+const Slider = ({ children }: SliderProps) => {
+  return <StyledSlider>{children}</StyledSlider>;
+};
+
+export default Slider;
