@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import React from "react";
 import { AccordionPanel } from "../AccordionPanel/AccordionPanel";
+import { StyledAccordion } from "./Accordion.styles";
+import { AccordionProps } from "./Accordion.props";
+
+
 
 export const Accordion = ({
   children,
@@ -9,12 +13,12 @@ export const Accordion = ({
   setActiveAccordion,
   active,
   allowSingle,
-}) => {
+}: AccordionProps) => {
   /* 
   local visibility toggle to manage visibility in individual components
  */
 
-  const [visibility, setVisibility] = useState(false);
+  const [visibility, setVisibility] = useState<boolean>(false);
 
   // This useEffect runs multiple checks to determine what the value of 'visibility' is
   // if the allowSingle prop exists, set the value of visibility === active
@@ -43,20 +47,18 @@ export const Accordion = ({
 
  */
   if (!children) return null;
-  return "";
-  // return (
-  // <div
-  //   style={{ border: "1px solid red" }}
-  //   onClick={(e) => {
-  //     toggleVisible();
-  //   }}
-  //   ref={visibilityRef}
-  // >
-  //   <> {children[0]} </>
+  return (
+    <StyledAccordion
+      onClick={(e) => {
+        toggleVisible();
+      }}
+      ref={visibilityRef}
+    >
+      <> {children[0]} </>
 
-  //   {visibility === false ? null : (
-  //     <AccordionPanel> {children[1]} </AccordionPanel>
-  //   )}
-  // </div>
-  // );
+      {visibility === false ? null : (
+        <AccordionPanel> {children[1]} </AccordionPanel>
+      )}
+    </StyledAccordion>
+  );
 };

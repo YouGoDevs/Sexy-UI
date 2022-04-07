@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { StyledAccordionContainer } from "./AccordionContainer.style";
 
 /*
 
@@ -10,16 +11,22 @@ import React, { useRef, useState } from "react";
 
 */
 
+interface AccordionContainerProps {
+  children: React.ReactChild[];
+  allowSingle: boolean;
+}
 
-
-export const AccordionContainer = ({ children, allowSingle }) => {
+export const AccordionContainer = ({
+  children,
+  allowSingle,
+}: AccordionContainerProps) => {
   const visibilityRef = useRef();
 
   const [activeAccordion, setActiveAccordion] = useState(null);
 
   return (
-    <div>
-      {children.map((child, index) => {
+    <StyledAccordionContainer>
+      {children.map((child: any, index: number) => {
         return React.cloneElement(child, {
           child: { ...child },
           visibilityRef: visibilityRef,
@@ -29,6 +36,6 @@ export const AccordionContainer = ({ children, allowSingle }) => {
           allowSingle: allowSingle,
         });
       })}
-    </div>
+    </StyledAccordionContainer>
   );
 };
